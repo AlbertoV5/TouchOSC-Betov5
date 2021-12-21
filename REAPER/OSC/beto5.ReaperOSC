@@ -367,12 +367,12 @@ FX_PARAM_VALUE s/fxparam/@/value/str s/fx/@/fxparam/@/value/str
 #FX_INST_PARAM_VALUE n/fxinstparam/@/value
 #FX_INST_PARAM_VALUE s/fxinstparam/@/value/str
 
-LAST_TOUCHED_FX_TRACK_NAME s/fx/last_touched/track/name
-LAST_TOUCHED_FX_TRACK_NUMBER s/fx/last_touched/track/number/str
-LAST_TOUCHED_FX_NAME s/fx/last_touched/name
-LAST_TOUCHED_FX_NUMBER s/fx/last_touched/number/str
-LAST_TOUCHED_FX_PARAM_NAME s/fxparam/last_touched/name
-LAST_TOUCHED_FX_PARAM_VALUE n/fxparam/last_touched/value s/fxparam/last_touched/value/str
+#LAST_TOUCHED_FX_TRACK_NAME s/fx/last_touched/track/name
+#LAST_TOUCHED_FX_TRACK_NUMBER s/fx/last_touched/track/number/str
+#LAST_TOUCHED_FX_NAME s/fx/last_touched/name
+#LAST_TOUCHED_FX_NUMBER s/fx/last_touched/number/str
+#LAST_TOUCHED_FX_PARAM_NAME s/fxparam/last_touched/name
+#LAST_TOUCHED_FX_PARAM_VALUE n/fxparam/last_touched/value s/fxparam/last_touched/value/str
 
 # these send MIDI to the vkb MIDI input. parameters are raw MIDI.
 
