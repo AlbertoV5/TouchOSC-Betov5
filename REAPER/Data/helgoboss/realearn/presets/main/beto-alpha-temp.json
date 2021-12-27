@@ -1,0 +1,4147 @@
+{
+  "version": "2.11.1",
+  "name": "beto-alpha-temp",
+  "defaultGroup": {},
+  "groups": [
+    {
+      "id": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "name": "XO8"
+    },
+    {
+      "id": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "name": "XO7"
+    },
+    {
+      "id": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "name": "XO6"
+    },
+    {
+      "id": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "name": "XO5"
+    },
+    {
+      "id": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "name": "XO4"
+    },
+    {
+      "id": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "name": "XO3"
+    },
+    {
+      "id": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "name": "XO2"
+    },
+    {
+      "id": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "name": "XO1"
+    },
+    {
+      "id": "da60122f-5018-409c-a610-56b0763df318",
+      "name": "Transport"
+    },
+    {
+      "id": "e332f8e7-34be-4888-b586-4bcc0987cc32",
+      "name": "Control-MIDI"
+    },
+    {
+      "id": "79bff492-2138-4729-bc76-4f67e95e0036",
+      "name": "Control-Tools"
+    },
+    {
+      "id": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
+      "name": "Control-Tracks"
+    },
+    {
+      "id": "1c592864-7e03-4c3c-b81a-6a165bed4fa3",
+      "name": "Pager"
+    },
+    {
+      "id": "9B_oIsOD6RPq2um8MaRWy",
+      "name": "Control-Monitor"
+    }
+  ],
+  "mappings": [
+    {
+      "id": "8db89c72-1cd8-408a-8ddb-6fbc0752d89e",
+      "name": "49",
+      "groupId": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 16,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX2/volume",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 134,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "37f35fcd-3e0f-47ad-ac9e-0b69f998b54a",
+      "name": "56",
+      "groupId": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX2/transient",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 139,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "11882c8c-483c-4002-8c1e-62b0d3672e06",
+      "name": "56",
+      "groupId": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX2/hold",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 140,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "08a29e6e-d1ad-40e4-85d9-af374754b05c",
+      "name": "56",
+      "groupId": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX2/decay",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 141,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "a5608997-3433-4314-ac6d-c49c8b457a39",
+      "name": "56",
+      "groupId": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX2/pitchTonex",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 142,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f6e3cc59-8411-4017-a4e1-fc14b2c5c944",
+      "name": "56",
+      "groupId": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX2/pitchToney",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 144,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "b1fe9fda-24bc-4404-b76b-a2673cdd7892",
+      "name": "56",
+      "groupId": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX2/lowCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 145,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "aa3865f1-3633-46cb-8581-450c79a3de9a",
+      "name": "56",
+      "groupId": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX2/highCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 146,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "1ae7486d-8da7-4685-b783-943427d670b9",
+      "name": "56",
+      "groupId": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX2/pan",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 137,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "41371f43-d991-4710-b4ca-0bcece16ded1",
+      "name": "56",
+      "groupId": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX2/solo",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 136,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "fc678ae0-db33-45b9-831d-fb640f376144",
+      "name": "56",
+      "groupId": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX2/mute",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 135,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "4e8f3259-937a-40cd-9261-5f80fadd1e25",
+      "name": "56",
+      "groupId": "ae884061-6492-482a-9f6c-005b67fa6c84",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX2/reverse",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 150,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "fd30e71e-e663-479e-b3e4-acddd0bcb1e8",
+      "name": "49",
+      "groupId": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 16,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX1/volume",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 115,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "857ff027-6b5f-46aa-ba3d-795446059d2d",
+      "name": "56",
+      "groupId": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX1/pan",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 118,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "2d521245-87c6-48b7-aaf6-67bb189b7e5a",
+      "name": "56",
+      "groupId": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX1/transient",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 120,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "f1911a18-c1f1-4ef3-985f-6a7614901348",
+      "name": "56",
+      "groupId": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX1/hold",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 121,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "eba10394-3098-4fc2-868b-1af0a28d4478",
+      "name": "56",
+      "groupId": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX1/decay",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 122,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "aa7120aa-996b-4f43-8055-102625f9afef",
+      "name": "56",
+      "groupId": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX1/pitchTonex",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 123,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "38e15963-7f04-4cc4-a8b0-9c60a84d2b98",
+      "name": "56",
+      "groupId": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX1/pitchToney",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 125,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "5d6b5232-9b35-4ffb-938c-8c706f3af458",
+      "name": "56",
+      "groupId": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX1/highCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 127,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "792748f5-c552-460f-ae18-901077f73cb3",
+      "name": "56",
+      "groupId": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX1/lowCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 126,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "8154bedb-f086-4076-a6ec-c15557683be6",
+      "name": "56",
+      "groupId": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX1/mute",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 116,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "5d7ba158-a3f8-4c2a-8e72-8a92f3fd684d",
+      "name": "56",
+      "groupId": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX1/solo",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 117,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "a8ea22ee-e3fa-4271-bb7e-c7470df5276f",
+      "name": "56",
+      "groupId": "2f5726c8-5671-41fa-8dd8-326005f21588",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/FLEX1/reverse",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 131,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "8f9ace43-1079-4f95-ad4f-652c819d87cb",
+      "name": "56",
+      "groupId": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/OPHH/volume",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 96,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "e2fa8e52-616c-4049-be12-2f4c64341c8f",
+      "name": "56",
+      "groupId": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/OPHH/pan",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 99,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "f6b4d06e-bbed-48ca-95e5-6fd6fdea7f1f",
+      "name": "56",
+      "groupId": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/OPHH/transient",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 101,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "75df7a5c-e244-4315-8177-2903e1bc0d4d",
+      "name": "56",
+      "groupId": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/OPHH/hold",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 102,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "0e6ee5c9-7052-4569-a4f6-d64e86f600fa",
+      "name": "56",
+      "groupId": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/OPHH/decay",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 103,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "c9709990-db15-439a-a536-c2760b2861cd",
+      "name": "56",
+      "groupId": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/OPHH/pitchTonex",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 104,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "f3b92f28-2c90-4158-803c-6fad24254279",
+      "name": "56",
+      "groupId": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/OPHH/pitchToney",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 106,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "c2237c13-9158-4ef2-8f09-f428719c5fc0",
+      "name": "56",
+      "groupId": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/OPHH/highCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 108,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "f4cb72e6-f13c-4f20-b54a-8902904f579a",
+      "name": "56",
+      "groupId": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/OPHH/lowCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 107,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "22e9c5c8-2ee7-42af-9ffc-3d0f70948e4a",
+      "name": "56",
+      "groupId": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/OPHH/solo",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 98,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "8d27c3ef-af3a-4e76-a1f2-7f66b7f7b607",
+      "name": "56",
+      "groupId": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/OPHH/mute",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 97,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "3a960325-6a28-48e3-8976-9e5f4ddaa2ed",
+      "name": "56",
+      "groupId": "83dbbad5-ba20-41e0-9851-2753b71c5fd3",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/OPHH/reverse",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 112,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "953e161f-0136-4664-b9fe-aceb9a6a424b",
+      "name": "56",
+      "groupId": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLHH/volume",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 77,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "fd22d99c-403e-41f1-aa09-9ca44939c342",
+      "name": "56",
+      "groupId": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLHH/pan",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 80,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "44614eb8-ff55-4f8d-b1ce-9c32d72ab452",
+      "name": "56",
+      "groupId": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLHH/transient",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 82,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "c1e63098-a3d8-4c0a-ae98-b3c422c960f7",
+      "name": "56",
+      "groupId": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLHH/hold",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 83,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "9eda8922-fcc3-4a05-8ce6-96fce04427b4",
+      "name": "56",
+      "groupId": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLHH/decay",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 84,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "48a8b909-ca9d-45e0-b0a3-34cd04fb1d26",
+      "name": "56",
+      "groupId": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLHH/pitchTonex",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 85,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "2d48df76-12f4-4f3e-bc38-f3a955721ded",
+      "name": "56",
+      "groupId": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLHH/pitchToney",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 87,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "43904db3-afbb-4536-ba91-f0bf179a8c57",
+      "name": "56",
+      "groupId": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLHH/highCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 89,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "c9f69725-87cf-4955-bc3c-173e0f8195c5",
+      "name": "56",
+      "groupId": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLHH/lowCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 88,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "50e7d445-a452-4c9c-947b-abc4863677df",
+      "name": "56",
+      "groupId": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLHH/solo",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 79,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "0ac8e1df-e662-4b62-bebd-56c657af3be6",
+      "name": "56",
+      "groupId": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLHH/mute",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 78,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "853b592e-f2d1-4460-b4e1-6f596121ee94",
+      "name": "56",
+      "groupId": "8f05fe21-0990-4449-a905-7ee232b27d6b",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLHH/reverse",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 93,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "a3f23148-cfee-4d43-b9ea-132bafc1ba09",
+      "name": "56",
+      "groupId": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLAP/volume",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 58,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "54c2e9a2-0f7d-493b-a272-30674a2d67dd",
+      "name": "56",
+      "groupId": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLAP/pan",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 61,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "d46f60f1-d0f4-4da9-a676-3589a8e9e0a6",
+      "name": "56",
+      "groupId": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLAP/transient",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 63,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "6ef865d9-4fe9-49f2-a1a8-73b83be0b3a0",
+      "name": "56",
+      "groupId": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLAP/hold",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 64,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "7d6b8171-abef-4d0f-b24b-75dcb4998c88",
+      "name": "56",
+      "groupId": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLAP/decay",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 65,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "958b338d-25a4-41c8-8c45-ffc631cb99f7",
+      "name": "56",
+      "groupId": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLAP/pitchTonex",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 66,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "514c0b3e-3c78-48a1-9415-f1d9db8176fb",
+      "name": "56",
+      "groupId": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLAP/pitchToney",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 68,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "c629f2c2-9a03-44c5-bf90-377b7f587f6e",
+      "name": "56",
+      "groupId": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLAP/highCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 70,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "2355097b-a4c7-475e-aac6-d3e3636f0da0",
+      "name": "56",
+      "groupId": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLAP/lowCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 69,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "9c69626b-c6f4-4369-907e-8a3b69dec4b9",
+      "name": "56",
+      "groupId": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLAP/solo",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 60,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "9f2c9f63-666d-43cc-bd47-06428b0d56a4",
+      "name": "56",
+      "groupId": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLAP/mute",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 59,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "90109782-7148-4796-8fb0-a4158a077a8e",
+      "name": "56",
+      "groupId": "5b1ca87f-d80c-4e47-a169-e0626a8556d6",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/CLAP/reverse",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 74,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "99193376-609b-42f7-9260-883f5f9dd107",
+      "name": "56",
+      "groupId": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SNARE/volume",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 39,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "50a4efc3-e0fd-4d87-9597-d7fc64dfc563",
+      "name": "56",
+      "groupId": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SNARE/pan",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 42,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "529eb5b1-ebbf-4e7c-a38c-2050898d3168",
+      "name": "56",
+      "groupId": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SNARE/transient",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 44,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "db4ffb35-8c29-4f6a-92a4-ff80324992fa",
+      "name": "56",
+      "groupId": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SNARE/hold",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 45,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "a5024661-1af9-4542-8642-7aa3e8295547",
+      "name": "56",
+      "groupId": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SNARE/decay",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 46,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "01e74c06-e078-4f13-b63e-d2e03aa3a0e0",
+      "name": "56",
+      "groupId": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SNARE/pitchTonex",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 47,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "b9cb6fb0-7cdc-4d2a-b3ad-e02b9db263cd",
+      "name": "56",
+      "groupId": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SNARE/pitchToney",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 49,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "c7536e92-c4f9-4a14-ac70-a5db06301e61",
+      "name": "56",
+      "groupId": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SNARE/highCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 51,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "b01862b4-8340-446b-9b36-dd867fae96c3",
+      "name": "56",
+      "groupId": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SNARE/lowCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 50,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "13ad98f1-f3ac-4c7d-9b3b-273d011c29e0",
+      "name": "56",
+      "groupId": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SNARE/solo",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 41,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "ddb81343-097f-45ac-b0b2-1fa2e199565a",
+      "name": "56",
+      "groupId": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SNARE/mute",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 40,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "92b7a12d-679d-4ef6-98db-62a396636400",
+      "name": "56",
+      "groupId": "5b7fded2-424a-445a-ba02-5bee38537a1a",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SNARE/reverse",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 55,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "eb9515cd-eac1-4fe5-bae0-f84cd7629466",
+      "name": "56",
+      "groupId": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK2/volume",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 20,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "847daba5-657d-4449-8344-7cc2af6feb66",
+      "name": "56",
+      "groupId": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK2/pan",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 23,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "2c4d8b51-e168-4b49-b809-ec2a7368f49f",
+      "name": "56",
+      "groupId": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK2/transient",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 25,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "aba516bc-1639-44ba-bc2e-afbbcaa4d756",
+      "name": "56",
+      "groupId": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK2/hold",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 26,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "0eddca84-8de4-469f-82b6-7ab7f6a598d9",
+      "name": "56",
+      "groupId": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK2/decay",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 27,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "1c5521b0-b0f9-49bc-a5d5-c1c17032a7cc",
+      "name": "56",
+      "groupId": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK2/pitchTonex",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 28,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "165848ba-234a-49f0-91fd-e404d817f02f",
+      "name": "56",
+      "groupId": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK2/pitchToney",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 30,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "c6662d7f-77cb-424f-bb40-038e5a7c1096",
+      "name": "56",
+      "groupId": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK2/highCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 32,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "5d4f6f92-8e1b-49a2-9ab8-471257ead71f",
+      "name": "56",
+      "groupId": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK2/lowCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 31,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "942c2040-d732-4460-a2e0-dff8bd91f64f",
+      "name": "56",
+      "groupId": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK2/solo",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 22,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "92c7af48-d580-4220-b7ec-51ea309621b7",
+      "name": "56",
+      "groupId": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK2/mute",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 21,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "32d84eef-4352-4de6-a02d-a70c0d4ab53b",
+      "name": "56",
+      "groupId": "95ad0ea3-f3e4-447c-a11c-7134659bdcef",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK2/reverse",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 36,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "3fe8d8cb-06f6-4c25-9882-dccba5758772",
+      "name": "56",
+      "groupId": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK1/volume",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 1,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "1591c999-18b6-42ef-b1b6-6ad3505fd564",
+      "name": "56",
+      "groupId": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK1/pan",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 4,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "711c96e9-f7f6-4196-a027-ffedf94d0766",
+      "name": "56",
+      "groupId": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK1/transient",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 6,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "bf366ad2-5189-470d-8123-09849c59970d",
+      "name": "56",
+      "groupId": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK1/hold",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 7,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "aeb5dfa7-55cb-4194-a509-d4fa86825441",
+      "name": "56",
+      "groupId": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK1/decay",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 8,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "32d20ffe-a137-4a6a-9c9a-e15bc823c7b5",
+      "name": "56",
+      "groupId": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK1/pitchTonex",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 9,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "02b05dc6-7200-43fc-90a1-496a81414f76",
+      "name": "56",
+      "groupId": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK1/pitchToney",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 11,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "1a0b29e6-4c2b-4e8d-8f24-b378152e6991",
+      "name": "56",
+      "groupId": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK1/highCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 13,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "f4af8069-c14b-484d-b9f0-956666514b1f",
+      "name": "56",
+      "groupId": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK1/lowCut",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 12,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "1c9326c5-b4d0-4042-9c84-ebde1673b48a",
+      "name": "56",
+      "groupId": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK1/solo",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 3,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "a59e59d3-e232-455b-9f36-76681ec57b3f",
+      "name": "56",
+      "groupId": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK1/mute",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 2,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "fcdb0168-64a5-4688-9d6e-889b101b28c9",
+      "name": "56",
+      "groupId": "ab342fae-a592-4dc1-b8ac-721e64687ba9",
+      "source": {
+        "category": "osc",
+        "channel": 0,
+        "number": 23,
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/KICK1/reverse",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "name",
+        "fxName": "XO Sampler",
+        "paramIndex": 17,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "9fdfc0cd-123f-415d-9cf3-48448ae61f4c",
+      "name": "GO TO REGION 1",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/gotoRegion1",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "41761",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false,
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "b2de133d-27d4-4bb8-a0f6-52b5414329c6",
+      "name": "GO TO PREV REG",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/goToPrevRegion",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "SWS_SELPREVREG",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false,
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "1067c760-bc09-44e6-a46c-092a54058b4c",
+      "name": "GO TO NEXT REGION",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/goToNextRegion",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "SWS_SELNEXTREG",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false,
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "748e1e08-ff29-4cc2-86a5-57780b5b47ee",
+      "name": "GO TO START TIM SEL",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/MoveToStartSelection",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40630",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false,
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "24172ea9-5b04-4337-ba3c-ab18eae15c84",
+      "name": "GO TO END TIM SEL",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/MoveToEndSelection",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40631",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false,
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "fdfd3040-43c3-41fa-bca9-0639937c4b26",
+      "name": "CLEAR TIME SEL",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/clearSelection",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40020",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false,
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "a220037c-7218-4b06-8d32-1908c5ed52fc",
+      "name": "GO TO PLAYBACK",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/goToPlayback",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40434",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false,
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "06720b61-a776-4a71-b01c-8b0a3f3ea1fb",
+      "name": "GO BACK 1 MEAS",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/goBackMeasure",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40840",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false,
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "b0894563-9a51-403f-8501-7629d3351f58",
+      "name": "GO FOR 1 MEAS",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/goForwardMeasure",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40839",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false,
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "9d0bf24a-dae3-44a7-9f36-e71b6519d642",
+      "name": "TOGGLE METRONOME",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/toggleMetronome",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40364",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "preventEchoFeedback": true
+    },
+    {
+      "id": "b10be889-fb81-40b1-98ef-cfee54abb9ba",
+      "name": "PLAY",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/button554",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 16,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "856cae33-23f7-4355-b3c6-e4e3ae788b96",
+      "name": "RECORD",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/button555",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 16,
+        "fxAnchor": "id",
+        "transportAction": "record",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "82cce7a1-6e35-4b90-9838-d42fa69ab446",
+      "name": "Toggle Show FX Env",
+      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/showFXEnv",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "BR_T_SHOW_FX_ENV_SEL_TRACK",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "ce0a7b47-f0ab-4446-ae42-c640a2e98c09",
+      "name": "Toggle Show Send Env",
+      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/showSendEnv",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "BR_T_SHOW_ACT_SEND_ENV_ALL_SEL_TRACK",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "cf60807f-dc23-49b0-8ecc-e78a71a8d5ad",
+      "name": "Trim",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/autoModes/1",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40878",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "513e8631-e118-403e-8e4b-4576d4f5e3f7",
+      "name": "Latch",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/autoModes/2",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40881",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "22608217-ef5a-402a-9f8f-7befb9023d59",
+      "name": "Preview",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/autoModes/3",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "42022",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e6886b42-e0c0-4965-a557-bc7df44d677e",
+      "name": "Write To Select",
+      "groupId": "da60122f-5018-409c-a610-56b0763df318",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/transport/writeToSelection",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "42013",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "f5ca98ec-753b-43a6-923e-b9cd02ff3fb5",
+      "name": "Select all envelope Points",
+      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/selectEnv",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "41595",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "d61ac4d7-6c94-4c0d-8472-7b7c0d27f89a",
+      "name": "LFO Generator",
+      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/LFOGenerator",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "PADRE_ENVLFO",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "bb0058f4-5c6d-442c-98f1-56f5ab071873",
+      "name": "Groove Tool",
+      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/grooveTool",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "FNG_GROOVE_TOOL",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "a9ceb421-495a-4ae5-b778-d3187403b1c7",
+      "name": "MIDI Track Record Replace",
+      "groupId": "e332f8e7-34be-4888-b586-4bcc0987cc32",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/recordReplace",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40504",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "2b527a9f-be7e-4bef-9157-d67b2a8c8c27",
+      "name": "MIDI Track Record Overdub",
+      "groupId": "e332f8e7-34be-4888-b586-4bcc0987cc32",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/recordOverdub",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40503",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "12fd6e98-21bf-475f-9d4f-e94fe58d756f",
+      "name": "MIDI Track Record Latch",
+      "groupId": "e332f8e7-34be-4888-b586-4bcc0987cc32",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/recordLatch",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "41727",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "a813dffa-6e80-4f4f-82f9-20235488c85e",
+      "name": "MIDI Track Record Touch",
+      "groupId": "e332f8e7-34be-4888-b586-4bcc0987cc32",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/recordTouch",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40852",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "e392ca14-08d5-4e03-b517-1062d8e634eb",
+      "name": "MIDI Slower",
+      "groupId": "e332f8e7-34be-4888-b586-4bcc0987cc32",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/midiSlower",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "RSc96d7f6de937d04e779b27d2e13925726c50fd01",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "653b1bd0-2454-49c8-b422-5f568faf3537",
+      "name": "MIDI Faster",
+      "groupId": "e332f8e7-34be-4888-b586-4bcc0987cc32",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/midiFaster",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "RS79522a8dff65e296892190e322da8ffb71c363d0",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "5c54f0c4-ff8b-4cfb-bd5b-c5bc48f779db",
+      "name": "Realearn",
+      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/Realearn",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 27,
+        "trackGUID": "master",
+        "fxAnchor": "id",
+        "fxGUID": "A1C5266D-E0D5-4F1C-853B-AB26FF552647",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "a9306b3b-82af-400a-bd35-23f6bc25bf7e",
+      "name": "MediaExplorer",
+      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/MediaExplorer",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "50124",
+        "trackGUID": "master",
+        "fxAnchor": "id",
+        "fxGUID": "239C5F16-BBFB-44E1-9CF8-0C03566EB9AE",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "907bafaf-e23e-4e34-a2f0-999a2b4b1951",
+      "name": "Track Manager",
+      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/TrackMan",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40906",
+        "trackGUID": "master",
+        "fxAnchor": "id",
+        "fxGUID": "239C5F16-BBFB-44E1-9CF8-0C03566EB9AE",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "41d21b7a-ee00-4862-9da1-9df70799980e",
+      "name": "Monitor",
+      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/Monitor",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "41882",
+        "trackGUID": "master",
+        "fxAnchor": "id",
+        "fxGUID": "239C5F16-BBFB-44E1-9CF8-0C03566EB9AE",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "5a5a6eb2-16bc-4be8-8447-e64762a7872c",
+      "name": "Auto-Rename",
+      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/button744",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "XENAKIOS_AUTORENAMETAKES",
+        "invocationType": 0,
+        "trackGUID": "873389F3-D4FA-448B-9C71-4A2561A7887D",
+        "fxAnchor": "id",
+        "fxGUID": "365E4007-3983-4676-842A-923BFD5066E0",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "56a707c7-51e0-4714-8110-ac3dfb74fa2d",
+      "name": "Expand",
+      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/folderExpand",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "2bbdc83ade749d4cbae7ed8d5f5b7f24",
+        "invocationType": 0,
+        "trackGUID": "A51B0705-CFC8-45D1-B458-D30A9C53FABC",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "scrollArrangeView": true,
+        "scrollMixer": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "21e5caa6-9c6b-422e-9242-2aea39da73fa",
+      "name": "Collapse",
+      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/folderCollapse",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "0e6e038650f45c4cbb65bbcc0e104f3d",
+        "invocationType": 0,
+        "trackGUID": "A51B0705-CFC8-45D1-B458-D30A9C53FABC",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "scrollArrangeView": true,
+        "scrollMixer": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "1e6762b5-dbf2-4abc-8f87-2848a8952c42",
+      "name": "Previous Track",
+      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/button739",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40286",
+        "invocationType": 0,
+        "trackGUID": "selected",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "scrollArrangeView": true,
+        "scrollMixer": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "57c19ecc-d79e-43f4-999f-69c0cc9c11e5",
+      "name": "Next Track",
+      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/button740",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40285",
+        "invocationType": 0,
+        "trackGUID": "selected",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "scrollArrangeView": true,
+        "scrollMixer": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "77619128-4756-42e9-bbd7-440f07f68077",
+      "name": "Mixer on",
+      "groupId": "1c592864-7e03-4c3c-b81a-6a165bed4fa3",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/mixerOn"
+      },
+      "mode": {
+        "maxSourceValue": 0.0,
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y = 1",
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40078",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "1727fea0-bfc9-4b49-a6c6-a92a65854a7a",
+      "name": "Mixer off",
+      "groupId": "1c592864-7e03-4c3c-b81a-6a165bed4fa3",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/mixerOff"
+      },
+      "mode": {
+        "minSourceValue": 1.0,
+        "maxStepSize": 0.05,
+        "eelControlTransformation": "y = 0",
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40078",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "feedbackIsEnabled": false
+    },
+    {
+      "id": "uzNUh3EYStkh4c8qdcSNp",
+      "name": "A/B Open",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/AB",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 27,
+        "trackGUID": "master",
+        "fxAnchor": "name",
+        "fxName": "AB",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "qRurBaSCbmtRnPh9hcwSp",
+      "name": "FFT Open",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/FFT",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 27,
+        "trackGUID": "master",
+        "fxAnchor": "name",
+        "fxName": "FFT",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "3IYZibSTFy2TcxXgoPOeO",
+      "name": "BAL Open",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/Balance",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 27,
+        "trackGUID": "master",
+        "fxAnchor": "name",
+        "fxName": "BAL",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "Z5a7tgtmuh177JDBXzwWU",
+      "name": "Room Open",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/Room",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 27,
+        "trackGUID": "master",
+        "fxAnchor": "name",
+        "fxName": "Room",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "UVzLc5bwC5EmGsD4I1l7d",
+      "name": "AB Switch",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/AB-Switch",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "master",
+        "fxAnchor": "name",
+        "fxName": "AB",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "LvGoElP9hVTHIvJueD5Li",
+      "name": "Subs",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/Subs",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 12,
+        "trackGUID": "master",
+        "fxAnchor": "name",
+        "fxName": "Subs",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "WkDvdjEUw2xyo1GivrP1z",
+      "name": "Mids",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/Mids",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 12,
+        "trackGUID": "master",
+        "fxAnchor": "name",
+        "fxName": "Mids",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "Us77B1gvHqkmgUeFKCE1E",
+      "name": "Pad-L",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/pad1",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 12,
+        "trackGUID": "master",
+        "fxAnchor": "name",
+        "fxName": "Pad-Linear",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "ViQiwAJGDP34wv8Nchngl",
+      "name": "Pad-W",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/pad2",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 12,
+        "trackGUID": "master",
+        "fxAnchor": "name",
+        "fxName": "Pad-Weighted",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "0ts8AxapzX_1LVnQW2fF0",
+      "name": "Room",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Control/Room-Trigger",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 12,
+        "trackGUID": "master",
+        "fxAnchor": "name",
+        "fxName": "Room",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    }
+  ]
+}
