@@ -91,7 +91,7 @@ COLOR CODING: All the mixer related interfaces feature color coding of tracks th
 
 ![PluginFX](https://user-images.githubusercontent.com/58243333/148150498-e610b82e-ab0a-49a7-9711-5ae4786ffddc.jpg)
 
-This window replicates the bottom Mixer window functionality and replaces the top one with a dedicated FX control window. It supports 8 FX PARAM banks and 8 FX BANKS so you can edit 64 parameters on 8 effects with a few taps. They are all sequential so the resultant order may not be ideal, that's why the FX PARAM banks follow a color gradient depending on position from blue to red. There are other color features that may be removed in the future. The intention is to make it easier for the user to recall the position of parameters acrosss different plugins. This section also retains the FX PARAM BANK position of different FX within the same track in order to improve workflow.
+This window replicates the bottom Mixer window functionality and replaces the top one with a dedicated FX control window. It supports 8 FX PARAM banks and 8 FX BANKS so you can edit 64 parameters on 8 effects with a few taps. They are all sequential so the resultant order may not be ideal, that's why the FX PARAM banks follow a color gradient depending on position from blue to red. There are other color features that may be removed in the future. The intention is to make it easier for the user to remember the position of parameters acrosss different plugins. This section also retains the FX PARAM BANK position of different FX within the same track in order to improve workflow.
 
 
 ## WIP section
