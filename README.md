@@ -40,8 +40,8 @@ The interface is 1280x800 and it is designed to work with a Samsung S7 Tablet bu
 The Transport bar acts as a global control for the session. From left to right:
 
 1. Clear Selection [] 
-2. Go to Previous Region [<]    
-3. Go to Next Region [>] 
+2. Go to Previous Region and Select it [<]    
+3. Go to Next Region and Select it [>] 
 4. Move to the Start of the Selection|< 
 5. Move to the end of the Selection >|
 6. Go back one Measure << 
