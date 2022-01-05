@@ -44,6 +44,6 @@ The interface is 1280x800 and it is designed to work with a Samsung S7 Tablet bu
 
 For any questions and comments: avq5ac1@gmail.com
 
-I can help you out with your personal setup but I have to make time for it so a [donation via Paypal would help me to allocate time for it].(https://paypal.me/albertov5?country.x=MX&locale.x=es_XC).
+I can help you out with your personal setup but I have to make time for it so a [donation via Paypal would help me to allocate time for it](https://paypal.me/albertov5?country.x=MX&locale.x=es_XC).
 
 Have fun, feel free to submit bugs or make branches or whatever. Happy new year.
