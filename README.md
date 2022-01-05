@@ -141,7 +141,7 @@ Here is the user guide: https://www.helgoboss.org/projects/realearn/user-guide. 
 <img width="987" alt="Screen Shot 2022-01-05 at 12 49 16" src="https://user-images.githubusercontent.com/58243333/148272483-3b62fb3c-face-43a3-98d7-645f0595daaa.png">
 
 4. Then make sure this setting matches with your tablet/device's port settings.
-5. You can customize all buttons to match your templates. In my case I have a strict monitoring chain that never changes and everything else may vary from project to project. Make sure you select "NO" when saving the template and making references to specific plugins in case you are designing to a template.
+5. You can customize all buttons to match your templates. In my case I have a strict monitoring chain that never changes and everything else may vary from project to project. Make sure you select "NO" when saving the preset and making references to specific plugins in case you are designing to a template.
 
 
 ## About Network and Ports
