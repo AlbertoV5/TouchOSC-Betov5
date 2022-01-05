@@ -5,7 +5,7 @@ TouchOSC design for Reaper and Realearn. Music Production, Mixing and Mastering.
 
 ## Description
 
-This interface works only on REAPER and touchOSC Mark 2 (2021 version). It integrates Realearn OSC functions for executing commands dynamically.
+This interface works with REAPER and TouchOSC Mk2 (2021 version). It integrates Realearn OSC functions for executing commands dynamically.
 
 Important: Connection #1 is used for all Realearn messages. Connection #2 is used for all native REAPER OSC messages.
 
