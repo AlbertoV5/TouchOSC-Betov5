@@ -73,7 +73,7 @@ This whole section is Connection #1.
 
 ![Mixer](https://user-images.githubusercontent.com/58243333/148149878-2e591f21-352e-40a1-a4c0-c991e2f5b199.jpg)
 
-The mixer has 2 stages, the mix view and the track focus, which shows more detailed track controls.
+The mixer has 2 stages, the mix view and the track focus, which shows more detailed track controls. The bottom radio buttons help you navigate between fader banks. Right now it supports 8 banks. It automatically follows the mixer view unless you change that setting in the Config tab.
 Workflow Tip: Tap on the decibel string to reset the fader to 0 dB. This stays consistent regardless of your fader settings on Reaper as it uses volume/db.
 The mixer view is entirely Connection #2.
 
