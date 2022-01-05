@@ -156,8 +156,6 @@ For reference:
 
 Also, make sure you set a static IP for your tablet/device if you don't want to change it everytime. Which you may need to do whenever you change networks.
 
-avq5ac1@gmail.com
-
 ## About the Control Tab, Templates, Custom Actions and my Monitoring chain
 
 The monitoring buttons right now do two different things, the first four (gray color) just toggle the FX window. The other six (green) either toggle bypass or change the value of an FX parameter. 
@@ -176,3 +174,11 @@ For custom actions, the ones I am certain that are being called are a Track Coll
 3. Figure out or copy quality of life OSC functions like string input, save settings, etc.
 4. Beta testing and feedback :)
 
+
+## Contact
+
+For any questions and comments: avq5ac1@gmail.com
+
+I can help you out with your personal setup but I have to make time for it so a donation via Paypal would help me to allocate time for it: alberto_v_q@hotmail.com
+
+Have fun, feel free to branch out and submit bugs or whatever. Happy new year.
