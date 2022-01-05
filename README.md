@@ -1,9 +1,5 @@
 # TouchOSC-Betov5
-TouchOSC design for Reaper and Realearn
-
-Touch OSC design for REAPER. 
-
-Music Production, Mixing and Mastering.
+TouchOSC design for Reaper and Realearn. Music Production, Mixing and Mastering.
 
 ## Description
 
@@ -27,8 +23,8 @@ The interface is 1280x800 and it is designed to work with a Samsung S7 Tablet bu
 
 ## Installation
 
-1. Clone this repo outside your REAPER folder (resource path) and drag whatever contents from this path to yours.
-2. Open the beto5-alpha.touchosc file on your editor or in your tablet.
+1. Clone this repo outside your REAPER folder (resource path) and drag whatever contents from this path to the REAPER folder.
+2. Open the beto5-alpha.touchosc file with your editor or in your tablet.
 3. Setup your connections so you have connection #1 match Realearn and connection #2 match the Reaper setting.
 4. Load up the Realearn preset and edit it if you like
 5. Tweak the beto5.reaperosc file if you like. I always remove the track VU for performance but it does look pretty.
