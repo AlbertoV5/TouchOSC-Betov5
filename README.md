@@ -131,10 +131,10 @@ Reserved for internal settings or Reaper OSC or Realearn settings in the future.
 
 ## About Realearn
 
-Realearn is incredibly powerful and very handy. Its OSC feature is experimental allegedly so use at your own risk, but so far I haven't had any issues, it works perfect. In the future, if Helgoboss updates OSC, I would implement more messages like string messages and so on, which right now it doesn't support. 
+Realearn is incredibly powerful and very handy. Its OSC feature is experimental allegedly so use at your own risk, but so far I haven't had any issues, it works perfect. In the future, if Helgoboss updates OSC, I would implement more messages like sending and receiving strings, which right now it doesn't support. 
 Here is the user guide: https://www.helgoboss.org/projects/realearn/user-guide. The way you would setup TouchOSC with Realearn is:
 
-1. Install it manually or via package manager within Reaper (gotta install package manager first)
+1. Install it manually or via package manager within Reaper.
 2. Load the preset that you got from this repository.
 3. Setup your device by right clicking input and setting the port settings. More details for ports and network below:
 
