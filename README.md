@@ -1,4 +1,4 @@
-# TouchOSC-Betov5
+# TouchOSC-Reaper-Betov5
 TouchOSC design for Reaper and Realearn. Music Production, Mixing and Mastering.
 
 ![Mixer](https://user-images.githubusercontent.com/58243333/148149878-2e591f21-352e-40a1-a4c0-c991e2f5b199.jpg)
