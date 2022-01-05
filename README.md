@@ -14,20 +14,20 @@ The interface is 1280x800 and it is designed to work with a Samsung S7 Tablet bu
 
 ## Requirements
 
-1. REAPER
-2. TouchOSC
-3. Realearn
+1. [REAPER] (https://www.reaper.fm/)
+2. [TouchOSC] (https://hexler.net/touchosc)
+3. [Realearn](https://www.helgoboss.org/projects/realearn/)
 4. A tablet or large smartphone
-5. Free time
+5. Free time for custom setup
 
 
-## Installation
+## Quick Installation
 
-1. Clone this repo outside your REAPER folder (resource path) and drag whatever contents from this path to the REAPER folder.
+1. Clone this repo outside your REAPER folder (resource path) and drag the contents from this path to the REAPER folder.
 2. Open the beto5-alpha.touchosc file with your editor or in your tablet.
-3. Setup your connections so you have connection #1 match Realearn and connection #2 match the Reaper setting.
-4. Load up the Realearn preset and edit it if you like
-5. Tweak the beto5.reaperosc file if you like. I always remove the track VU for performance but it does look pretty.
+3. Setup your connections on TouchOSC so you have connection #1 match the Realearn setting and connection #2 match the Reaper setting.
+4. Install Realearn. Load up the Realearn preset beto-alpha-temp and edit it to your liking. More details below.
+5. Tweak the beto5.ReaperOSC and beto5-alpha.tosc files if you like. I always bypass track VU for performance but it does look nice.
 
 
 ## User Guide
@@ -128,6 +128,33 @@ This is just faders with MIDI messages. Sometimes I use them.
 
 Reserved for internal settings or Reaper OSC or Realearn settings in the future. Edit the color coding on the editor. You can change the Device FX follows on the tablet but you'll have to change them from the default each time. The AUTO configuration lets the Pager change the settings whenever you change tabs which helps with the workflow so you don't have to navigate on Reaper that much for focusing plugins and avoids some hiccups. 
 
+
+## About Realearn
+
+Realearn is incredibly powerful and very handy. Its OSC feature is experimental allegedly so use at your own risk, but so far I haven't had any issues, it works perfect. In the future, if Helgoboss updates OSC, I would implement more messages like string messages and so on, which right now it doesn't support. 
+Here is the user guide: https://www.helgoboss.org/projects/realearn/user-guide. The way you would setup TouchOSC with Realearn is:
+
+1. Install it manually or via package manager within Reaper (gotta install package manager first)
+2. Load the preset that you got from this repository.
+3. Setup your device by right clicking input and setting the port settings. More details for ports and network below:
+
+<img width="987" alt="Screen Shot 2022-01-05 at 12 49 16" src="https://user-images.githubusercontent.com/58243333/148272483-3b62fb3c-face-43a3-98d7-645f0595daaa.png">
+
+4. Then make sure this setting matches with your tablet/device's port settings.
+5. You can customize all buttons to match your templates. In my case I have a strict monitoring chain that never changes and everything else may vary from project to project. Make sure you select "NO" when saving the template and making references to specific plugins in case you are designing to a template.
+
+
+## About Network and Ports
+
+![Screenshot_20220105-125915_TouchOSC](https://user-images.githubusercontent.com/58243333/148273576-1d51a970-9c09-4d2b-89c6-514da3e2ee38.jpg)
+
+This design was initially made for Realearn and then I added the Reaper functionality so that's why the connections ended up looking like this. This setting must match your Reaper and Realearn settings. Reaper uses ports 4000 and 6000 and Realearn uses 7000 and 9000. TouchOSC supports up to 4 connections so you can control multiple listeners from one device. Just pay attention to the connections whenever you create objects or send messages from a script.
+
+For reference:
+![_network1](https://user-images.githubusercontent.com/58243333/148274954-d939dcac-8135-47a7-bc0c-072b88c25a6b.jpg)
+![_network2](https://user-images.githubusercontent.com/58243333/148274971-ee58420e-e74a-472e-bcaa-2bbf3d0803b8.jpg)
+
+Also, make sure you set a static IP for your tablet/device if you don't want to change it everytime. Which you may need to do whenever you change networks.
 
 avq5ac1@gmail.com
 
