@@ -39,6 +39,8 @@ The interface is 1280x800 and it is designed to work with a Samsung S7 Tablet bu
 
 ## [User Guide](UserGuide.md) 
 
+## [Config Guide](ConfigGuide.md)
+
 ## Contact
 
 For any questions and comments: avq5ac1@gmail.com
