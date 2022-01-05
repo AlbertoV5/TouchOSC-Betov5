@@ -304,7 +304,7 @@ TRACK_REC_ARM b/track/recarm b/track/@/recarm t/track/recarm/toggle t/track/@/re
 TRACK_MONITOR b/track/monitor b/track/@/monitor i/track/monitor i/track/@/monitor
 TRACK_SELECT b/track/select b/track/@/select
 
-#TRACK_VU n/track/vu n/track/@/vu
+TRACK_VU n/track/vu n/track/@/vu
 #TRACK_VU_L n/track/vu/L n/track/@/vu/L
 #TRACK_VU_R n/track/vu/R n/track/@/vu/R
 TRACK_VOLUME n/track/volume n/track/@/volume

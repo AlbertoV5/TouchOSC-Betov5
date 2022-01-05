@@ -58,6 +58,10 @@
     {
       "id": "9B_oIsOD6RPq2um8MaRWy",
       "name": "Control-Monitor"
+    },
+    {
+      "id": "RboYuopEEknK6vuwtEmN_",
+      "name": "TrackFocus"
     }
   ],
   "mappings": [
@@ -3583,6 +3587,7 @@
         "type": 27,
         "trackGUID": "master",
         "fxAnchor": "id",
+        "fxIndex": 8,
         "fxGUID": "A1C5266D-E0D5-4F1C-853B-AB26FF552647",
         "isInputFx": true,
         "useProject": true,
@@ -4137,6 +4142,58 @@
         "fxAnchor": "name",
         "fxName": "Room",
         "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "_vE4M8fjShcISX6Kyxd9S",
+      "name": "Expand Tracks",
+      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/expandTrack",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "2bbdc83ade749d4cbae7ed8d5f5b7f24",
+        "invocationType": 0,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "RY32wdGaPmqQqzo9oFkaf",
+      "name": "Collapse Tracks",
+      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/collapseTrack",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "0e6e038650f45c4cbb65bbcc0e104f3d",
+        "invocationType": 0,
+        "fxAnchor": "id",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
