@@ -17,7 +17,7 @@ Here is the user guide: https://www.helgoboss.org/projects/realearn/user-guide. 
 5. You can customize all buttons to match your templates. In my case I have a strict monitoring chain that never changes and everything else may vary from project to project. Make sure you select "NO" when saving the preset and making references to specific plugins in case you are designing to a template.
 
 
-## About Network and Ports
+## About Connections and Ports
 
 ![Screenshot_20220105-125915_TouchOSC](https://user-images.githubusercontent.com/58243333/148273576-1d51a970-9c09-4d2b-89c6-514da3e2ee38.jpg)
 
