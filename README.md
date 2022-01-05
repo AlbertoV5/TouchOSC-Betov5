@@ -36,14 +36,29 @@ The interface is 1280x800 and it is designed to work with a Samsung S7 Tablet bu
 
 ## User Guide
 
+
+### Transport Bar
+
+![0Transport](https://user-images.githubusercontent.com/58243333/148147578-9c01048a-b740-4389-aad5-d8b9fa8cbcf6.jpg)
+
 The Transport bar acts as a global control for the session. From left to right:
 
-Clear Selection []  Go to Previous Region [<]    Go to Next Region [>] 
-Move to the Start of the Selection |<   Move to the end of the Selection |>
-Go back one Measure <<  Go forward one Measure >>
-time/str  Toggle Metronome /|\ Play  Record
-Automation Modes: Trim, Latch, Preview.   Write to Selection.
-![0Transport](https://user-images.githubusercontent.com/58243333/148147578-9c01048a-b740-4389-aad5-d8b9fa8cbcf6.jpg)
+1. Clear Selection [] 
+2. Go to Previous Region [<]    
+3. Go to Next Region [>] 
+4. Move to the Start of the Selection|< 
+5. Move to the end of the Selection |>
+6. Go back one Measure << 
+7. Go forward one Measure >>
+8. time/str 
+9. Toggle Metronome /|\
+10. Play 
+11. Record
+12. Automation Trim 
+13. Automation Latch
+14. Automation Preview
+15. Write to Selection.
+
 
 
 
