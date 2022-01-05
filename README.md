@@ -20,7 +20,7 @@ The interface is 1280x800 and it is designed to work with a Samsung S7 Tablet bu
 2. [TouchOSC](https://hexler.net/touchosc)
 3. [Realearn](https://www.helgoboss.org/projects/realearn/)
 4. A tablet or large smartphone
-5. Free time for custom setup
+5. Free time, basic OSC knowledge for custom setup
 
 
 ## Quick Installation
@@ -31,9 +31,13 @@ The interface is 1280x800 and it is designed to work with a Samsung S7 Tablet bu
 4. Install Realearn. Load up the Realearn preset beto-alpha and edit it to your liking. More details on the User Guide.
 5. Tweak the beto5.ReaperOSC and beto5-alpha.tosc files if you like. I always bypass track VU for performance but it does look nice.
 
+## Contents
+
+1. beto5-alpha.tosc is the file you open with your tablet. 
+2. Data/helgoboss/realearn/presets/main/beto-alpha.json is the file you open from Realearn which reads the Connection #1 messages.
+3. OSC/beto5.ReaperOSC is the file that you set on REAPER's OSC preferences which reads the Connection #2 messages.
 
 ## [User Guide](UserGuide.md) 
-
 
 ## Contact
 
