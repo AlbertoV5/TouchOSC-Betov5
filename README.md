@@ -14,8 +14,8 @@ The interface is 1280x800 and it is designed to work with a Samsung S7 Tablet bu
 
 ## Requirements
 
-1. [REAPER] (https://www.reaper.fm/)
-2. [TouchOSC] (https://hexler.net/touchosc)
+1. [REAPER](https://www.reaper.fm/)
+2. [TouchOSC](https://hexler.net/touchosc)
 3. [Realearn](https://www.helgoboss.org/projects/realearn/)
 4. A tablet or large smartphone
 5. Free time for custom setup
