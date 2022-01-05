@@ -33,9 +33,7 @@ This section is both Connection #1 Realearn and Connection #2 REAPER.
 
 These are basic shortcuts with focus on Monitoring, Tools, Windows and temporary Track and Midi controls. The later ones will be replaced with a detailed marker and region navegation control.
 
-These are very dependant on your workflow so feel free to edit the Realearn preset.
-
-This whole section is Connection #1.
+This whole section is Connection #1 for Realearn which is very dependant on workflow so feel free to edit both the Realearn preset and TouchOSC file.
 
 ### Mixer
 
