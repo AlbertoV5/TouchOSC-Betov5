@@ -158,4 +158,14 @@ Also, make sure you set a static IP for your tablet/device if you don't want to 
 
 avq5ac1@gmail.com
 
+## About the Control Tab, Templates, Custom Actions and my Monitoring chain
+
+The monitoring buttons right now do two different things, the first four (gray color) just toggle the FX window. The other six (green) either toggle bypass or change the value of an FX parameter. 
+
+My setup is designed around having ADPTR's Metric AB, then Voxengo's SPAN, and iZotope's Tonal Balance Control as visual references then airwindows Monitoring on Sub mode, Fabfilter's Pro-Q 3 as bandpass from 100 to 6400 Hz for the Mids, then the same Pro-Q 3 with -8 dB output as a linear pad, then Slick EQ with -8 dB and EL Curve at -2 dB as a Weighted pad. Finally a room / speaker simulation with Realphones and Realearn last with the input/output bypassed just to make sure no audio runs through it. The monitoring chain in Reaper stays across multiple projects so there is where I keep the Realearn instance.
+
+You can set any plugin and whatever you like to the current setup as long as you keep the naming, as Realearn looks for the FX named "AB", "FFT", etc. But feel free to do whatever with the Control section. The Track and MIDI buttons call native Reaper functions and a few SWS extensions so make sure to take a look in there too.
+
+For custom actions, the ones I am certain that are being called are a Track Collapse and Track Expand that also removes the children tracks from the mixer view. You would have to change the target actions within Realearn. To be honest I don't know yet if the best option is to share Reaper settings or find a way to make it universal. Maybe I'll create the custom action with the scripting within the TouchOSC app.
+
 
