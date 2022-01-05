@@ -73,7 +73,7 @@ This whole section is Connection #1.
 
 ![Mixer](https://user-images.githubusercontent.com/58243333/148149878-2e591f21-352e-40a1-a4c0-c991e2f5b199.jpg)
 
-The mixer has 2 stages, the mix view and the track focus, which shows more detailed track controls. The bottom radio buttons help you navigate between fader banks. Right now it supports 8 banks. It automatically follows the mixer view unless you change that setting in the Config tab.
+The mixer has 2 stages, the mix view and the track focus, which shows more detailed track controls. The bottom radio buttons navigate between fader banks, so you can go up to 64 tracks on the mixer. It automatically follows the Mixer view unless you change that setting in the Config tab. That means that if you hide tracks from the Mixer view you won't see them in touch OSC.
 Workflow Tip: Tap on the decibel string to reset the fader to 0 dB. This stays consistent regardless of your fader settings on Reaper as it uses volume/db.
 The mixer view is entirely Connection #2.
 
@@ -173,6 +173,7 @@ For custom actions, the ones I am certain that are being called are a Track Coll
 2. Save and recall fader, sends, fx param settings in order to do A B comparissons of multiple parameters as different gain staging or stem fx settings (inspired by Neutron Visual Mixer global A/B/C function).
 3. Figure out or copy quality of life OSC functions like string input, save settings, etc.
 4. Beta testing and feedback :)
+5. Improve banks, workflow, button resets, double taps, add more plugins to the Plugin tab, etc.
 
 
 ## Contact
