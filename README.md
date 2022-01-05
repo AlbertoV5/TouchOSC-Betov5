@@ -169,3 +169,10 @@ You can set any plugin and whatever you like to the current setup as long as you
 For custom actions, the ones I am certain that are being called are a Track Collapse and Track Expand that also removes the children tracks from the mixer view. You would have to change the target actions within Realearn. To be honest I don't know yet if the best option is to share Reaper settings or find a way to make it universal. Maybe I'll create the custom action with the scripting within the TouchOSC app.
 
 
+## To do
+
+1. Group-control the parameters of different tracks that share a FX, as to EQ multiple stems without the need of multichannel or global group plugins (inspired by Fuse Audio Labs' VCS-1)
+2. Save and recall fader, sends, fx param settings in order to do A B comparissons of multiple parameters as different gain staging or stem fx settings (inspired by Neutron Visual Mixer global A/B/C function).
+3. Figure out or copy quality of life OSC functions like string input, save settings, etc.
+4. Beta testing and feedback :)
+
