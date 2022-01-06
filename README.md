@@ -28,8 +28,8 @@ The interface is 1280x800 and it is designed to work with a Samsung S7 Tablet bu
 
 1. Clone this repo outside your REAPER folder (resource path) and drag the contents from this path to the REAPER folder.
 2. Open the beto5-alpha.touchosc file with your editor or in your tablet.
-3. Setup your connections on TouchOSC so you have connection #1 match the Realearn setting and connection #2 match the Reaper setting.
-4. Install Realearn. Load up the Realearn preset beto-alpha and edit it to your liking. More details on the User Guide.
+3. Install Realearn. Load up the Realearn preset beto-alpha and edit it to your liking. More details on the User Guide. 
+4. Setup your connections on TouchOSC so you have connection #1 match the Realearn setting and connection #2 match the Reaper setting.
 5. Tweak the beto5.ReaperOSC and beto5-alpha.tosc files if you like. I always bypass track VU for performance but it does look nice.
 
 ## Contents
