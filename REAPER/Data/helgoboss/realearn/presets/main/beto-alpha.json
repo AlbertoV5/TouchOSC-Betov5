@@ -1,5 +1,5 @@
 {
-  "version": "2.11.1",
+  "version": "2.12.0-pre.4",
   "name": "beto-alpha",
   "defaultGroup": {},
   "groups": [
@@ -25,11 +25,22 @@
     },
     {
       "id": "9B_oIsOD6RPq2um8MaRWy",
-      "name": "Control-Monitor"
+      "name": "Control-Monitor",
+      "tags": [
+        "control"
+      ],
+      "modifierCondition1": {
+        "paramIndex": 0,
+        "isOn": false
+      }
     },
     {
       "id": "RboYuopEEknK6vuwtEmN_",
-      "name": "TrackFocus"
+      "name": "Mixer"
+    },
+    {
+      "id": "QTPkDCNkChod9A3v0RAEl",
+      "name": "Master"
     }
   ],
   "mappings": [
@@ -1383,6 +1394,417 @@
         "seekPlay": true,
         "oscArgIndex": 0
       }
+    },
+    {
+      "id": "VvNWx4qzRNveRdx_NFFX-",
+      "name": "51",
+      "groupId": "QTPkDCNkChod9A3v0RAEl",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/master/toggleFx/str/1",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 27,
+        "trackName": "MASTER",
+        "fxAnchor": "index",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "-dKZyGwKIVxUeB5caP0va",
+      "name": "52",
+      "groupId": "1c592864-7e03-4c3c-b81a-6a165bed4fa3",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Pager/0",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 38,
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "tags": [
+          "control"
+        ]
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "2EWTpapCP8C5HfF2KlYSj",
+      "name": "BANK TRACK COUNT",
+      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/realearn/track/count",
+        "oscArgIndex": 0,
+        "reaperSourceType": "realearn-instance-start"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "master",
+        "fxAnchor": "this",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "cD1vvKPw45HQEPQoJJ6t4",
+      "name": "BANK TRACK SELECTED",
+      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/realearn/track/bank/select/",
+        "oscArgIndex": 0,
+        "reaperSourceType": "realearn-instance-start"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "master",
+        "fxAnchor": "this",
+        "paramIndex": 1,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "0r_20I98t8rjJBweXLIwj",
+      "name": "Track Color 1",
+      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/1/color",
+        "oscArgType": "string",
+        "oscFeedbackArgs": [
+          "style.color.rrggbb"
+        ]
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackBackgroundColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackType": 1
+      },
+      "target": {
+        "unit": "percent",
+        "type": 44,
+        "trackExpression": "(p1 * p2 * 10000) + 0",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscAddressPattern": "track/1/color",
+        "oscArgType": "string",
+        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "Dl6zki6fz0I8t6AdzA2HP",
+      "name": "Track Color 2",
+      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/2/color",
+        "oscArgType": "string",
+        "oscFeedbackArgs": [
+          "style.color.rrggbb"
+        ]
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackBackgroundColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackType": 1
+      },
+      "target": {
+        "unit": "percent",
+        "type": 44,
+        "trackExpression": "(p1 * p2 * 10000) + 1",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscAddressPattern": "track/1/color",
+        "oscArgType": "string",
+        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "Pf_H5oHqbxJ69sOFFPEWR",
+      "name": "Track Color 3",
+      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/3/color",
+        "oscArgType": "string",
+        "oscFeedbackArgs": [
+          "style.color.rrggbb"
+        ]
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackBackgroundColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackType": 1
+      },
+      "target": {
+        "unit": "percent",
+        "type": 44,
+        "trackExpression": "(p1 * p2 * 10000) + 2",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscAddressPattern": "track/1/color",
+        "oscArgType": "string",
+        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "eJkMUBxVWZSeB6WZn2Mmb",
+      "name": "Track Color 4",
+      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/4/color",
+        "oscArgType": "string",
+        "oscFeedbackArgs": [
+          "style.color.rrggbb"
+        ]
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackBackgroundColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackType": 1
+      },
+      "target": {
+        "unit": "percent",
+        "type": 44,
+        "trackExpression": "(p1 * p2 * 10000) + 3",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscAddressPattern": "track/1/color",
+        "oscArgType": "string",
+        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "85HWt5AfQo9_nj2Jepn2v",
+      "name": "Track Color 5",
+      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/5/color",
+        "oscArgType": "string",
+        "oscFeedbackArgs": [
+          "style.color.rrggbb"
+        ]
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackBackgroundColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackType": 1
+      },
+      "target": {
+        "unit": "percent",
+        "type": 44,
+        "trackExpression": "(p1 * p2 * 10000) + 4",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscAddressPattern": "track/1/color",
+        "oscArgType": "string",
+        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "yNMgEJu-WlabXk-zvx-NJ",
+      "name": "Track Color 6",
+      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/6/color",
+        "oscArgType": "string",
+        "oscFeedbackArgs": [
+          "style.color.rrggbb"
+        ]
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackBackgroundColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackType": 1
+      },
+      "target": {
+        "unit": "percent",
+        "type": 44,
+        "trackExpression": "(p1 * p2 * 10000) + 5",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscAddressPattern": "track/1/color",
+        "oscArgType": "string",
+        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "NJwtKx3rYm8OVDELRxhxg",
+      "name": "Track Color 7",
+      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/7/color",
+        "oscArgType": "string",
+        "oscFeedbackArgs": [
+          "style.color.rrggbb"
+        ]
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackBackgroundColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackType": 1
+      },
+      "target": {
+        "unit": "percent",
+        "type": 44,
+        "trackExpression": "(p1 * p2 * 10000) + 6",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscAddressPattern": "track/1/color",
+        "oscArgType": "string",
+        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "jsIuMgMLf5BoFWN52771T",
+      "name": "Track Color 8",
+      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/8/color",
+        "oscArgType": "string",
+        "oscFeedbackArgs": [
+          "style.color.rrggbb"
+        ]
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackBackgroundColor": {
+          "prop": "target.track.color"
+        },
+        "feedbackType": 1
+      },
+      "target": {
+        "unit": "percent",
+        "type": 44,
+        "trackExpression": "(p1 * p2 * 10000) + 7",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscAddressPattern": "track/1/color",
+        "oscArgType": "string",
+        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+      },
+      "isEnabled": false
     }
   ]
 }
