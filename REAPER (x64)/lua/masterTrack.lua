@@ -4,7 +4,7 @@ local osc = false
 -- This is the public library for Master Track functions
 
 -- Always executes this function to find Track Named MASTER
-function masterTrack.get()
+function masterTrack.get2()
 	trackName = ""
 	i = 0
 	for i = 0, reaper.CountTracks(0), 1 do
@@ -17,6 +17,15 @@ function masterTrack.get()
 	end
 	reaper.ShowConsoleMsg("\n")
 	reaper.ShowConsoleMsg("No "..masterName.." was found")
+	return nil
+end
+
+function masterTrack.get()
+	if reaper.CountSelectedTracks2(0, true) > 0 then
+		return reaper.GetSelectedTrack2(0, 0, true)
+	else
+		return nil
+	end
 end
 
 local function sendOSC(fx, val)
