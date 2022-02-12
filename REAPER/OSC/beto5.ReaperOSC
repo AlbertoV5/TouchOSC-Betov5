@@ -339,7 +339,7 @@ TRACK_PAN_TOUCH b/track/pan/touch b/track/@/pan/touch
 
 # CHANGED STUFF HERE:
 
-FX_NAME s/fx/name s/fx/@/name
+FX_NAME s/fx/name s/fx/@/name s/track/@/fx/@/name
 FX_NUMBER s/fx/number/str s/fx/@/number/str
 FX_BYPASS b/fx/bypass b/fx/@/bypass
 FX_OPEN_UI b/fx/openui b/fx/@/openui 
