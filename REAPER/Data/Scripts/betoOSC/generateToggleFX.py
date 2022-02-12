@@ -3,8 +3,9 @@ from pathlib import Path
 amountFiles = 16
 
 d = Path.cwd()
+d = d / "selected" / "toggleFX"
 
-fileName = "masterToggleFX_"
+fileName = "selectedToggleFx_"
 ext = ".lua"
 
 for i in range(amountFiles):
