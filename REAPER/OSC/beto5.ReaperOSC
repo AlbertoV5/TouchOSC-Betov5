@@ -304,7 +304,7 @@ TRACK_REC_ARM b/track/recarm b/track/@/recarm t/track/recarm/toggle t/track/@/re
 TRACK_MONITOR b/track/monitor b/track/@/monitor i/track/monitor i/track/@/monitor
 TRACK_SELECT b/track/select b/track/@/select
 
-TRACK_VU n/track/vu n/track/@/vu
+#TRACK_VU n/track/vu n/track/@/vu
 #TRACK_VU_L n/track/vu/L n/track/@/vu/L
 #TRACK_VU_R n/track/vu/R n/track/@/vu/R
 TRACK_VOLUME n/track/volume n/track/@/volume
@@ -342,7 +342,7 @@ TRACK_PAN_TOUCH b/track/pan/touch b/track/@/pan/touch
 FX_NAME s/fx/name s/fx/@/name s/track/@/fx/@/name
 FX_NUMBER s/fx/number/str s/fx/@/number/str
 FX_BYPASS b/fx/bypass b/fx/@/bypass
-FX_OPEN_UI b/fx/openui b/fx/@/openui 
+FX_OPEN_UI b/fx/openui b/fx/@/openui b/track/@/fx/@/openui
 
 FX_PRESET s/fx/preset s/fx/@/preset
 FX_PREV_PRESET t/fx/preset- t/fx/@/preset-
@@ -350,7 +350,7 @@ FX_NEXT_PRESET t/fx/preset+ t/fx/@/preset+
 
 FX_PARAM_NAME s/fxparam/@/name s/fx/@/fxparam/@/name
 
-FX_PARAM_VALUE n/fxparam/@/value n/fx/@/fxparam/@/value 
+FX_PARAM_VALUE n/fxparam/@/value n/fx/@/fxparam/@/value n/track/@/fx/@/fxparam/@/value
 FX_PARAM_VALUE s/fxparam/@/value/str s/fx/@/fxparam/@/value/str
 
 ######## HERE PUT THE EQ PARAM STUFF
