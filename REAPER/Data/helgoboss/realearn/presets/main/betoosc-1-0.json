@@ -5,162 +5,70 @@
   "groups": [
     {
       "id": "e332f8e7-34be-4888-b586-4bcc0987cc32",
-      "name": "Control-MIDI"
+      "name": "7-MIDI"
     },
     {
       "id": "79bff492-2138-4729-bc76-4f67e95e0036",
-      "name": "Control-Tools"
-    },
-    {
-      "id": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
-      "name": "Control-Tracks"
+      "name": "1-Monitor-Tools",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 10,
+        "isOn": true
+      }
     },
     {
       "id": "9B_oIsOD6RPq2um8MaRWy",
-      "name": "Control-Monitor",
+      "name": "1-Monitor-Switches",
       "tags": [
         "control"
       ],
+      "activationType": "modifiers",
       "modifierCondition1": {
-        "paramIndex": 0,
-        "isOn": false
+        "paramIndex": 10,
+        "isOn": true
       }
     },
     {
       "id": "RboYuopEEknK6vuwtEmN_",
-      "name": "Mixer"
+      "name": "2-Mixer"
+    },
+    {
+      "id": "BgJNN-P5K6paIzh1FAL-V",
+      "name": "4-Desk",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 13,
+        "isOn": true
+      }
+    },
+    {
+      "id": "07M-eqxurmImcKh5d7ShY",
+      "name": "0-Pager"
+    },
+    {
+      "id": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "name": "1-Monitor-Screens",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 10,
+        "isOn": true
+      }
+    },
+    {
+      "id": "oWuKvNi5CmqcHbkHCKgmG",
+      "name": "1-Monitor-Peaks",
+      "activationType": "modifiers",
+      "modifierCondition1": {
+        "paramIndex": 10,
+        "isOn": true
+      },
+      "programCondition": {
+        "paramIndex": 10,
+        "programIndex": 0
+      }
     }
   ],
   "mappings": [
-    {
-      "id": "82cce7a1-6e35-4b90-9838-d42fa69ab446",
-      "name": "Toggle Show FX Env",
-      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/Control/showFXEnv",
-        "oscArgIndex": 0
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "feedbackColor": null
-      },
-      "target": {
-        "type": 0,
-        "commandName": "BR_T_SHOW_FX_ENV_SEL_TRACK",
-        "fxAnchor": "id",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0
-      }
-    },
-    {
-      "id": "ce0a7b47-f0ab-4446-ae42-c640a2e98c09",
-      "name": "Toggle Show Send Env",
-      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/Control/showSendEnv",
-        "oscArgIndex": 0
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "feedbackColor": null
-      },
-      "target": {
-        "type": 0,
-        "commandName": "BR_T_SHOW_ACT_SEND_ENV_ALL_SEL_TRACK",
-        "fxAnchor": "id",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0
-      }
-    },
-    {
-      "id": "f5ca98ec-753b-43a6-923e-b9cd02ff3fb5",
-      "name": "Select all envelope Points",
-      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/Control/selectEnv",
-        "oscArgIndex": 0
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "feedbackColor": null
-      },
-      "target": {
-        "type": 0,
-        "commandName": "41595",
-        "invocationType": 0,
-        "fxAnchor": "id",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0
-      },
-      "feedbackIsEnabled": false
-    },
-    {
-      "id": "d61ac4d7-6c94-4c0d-8472-7b7c0d27f89a",
-      "name": "LFO Generator",
-      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/Control/LFOGenerator",
-        "oscArgIndex": 0
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "feedbackColor": null
-      },
-      "target": {
-        "type": 0,
-        "commandName": "PADRE_ENVLFO",
-        "invocationType": 0,
-        "fxAnchor": "id",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0
-      },
-      "feedbackIsEnabled": false
-    },
-    {
-      "id": "bb0058f4-5c6d-442c-98f1-56f5ab071873",
-      "name": "Groove Tool",
-      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/Control/grooveTool",
-        "oscArgIndex": 0
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "feedbackColor": null
-      },
-      "target": {
-        "type": 0,
-        "commandName": "FNG_GROOVE_TOOL",
-        "fxAnchor": "id",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0
-      }
-    },
     {
       "id": "a9ceb421-495a-4ae5-b778-d3187403b1c7",
       "name": "MIDI Track Record Replace",
@@ -324,34 +232,6 @@
       "feedbackIsEnabled": false
     },
     {
-      "id": "5c54f0c4-ff8b-4cfb-bd5b-c5bc48f779db",
-      "name": "Realearn",
-      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/Control/Realearn",
-        "oscArgIndex": 0
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "feedbackColor": null
-      },
-      "target": {
-        "type": 27,
-        "trackGUID": "master",
-        "fxAnchor": "id",
-        "fxIndex": 8,
-        "fxGUID": "A1C5266D-E0D5-4F1C-853B-AB26FF552647",
-        "isInputFx": true,
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0
-      }
-    },
-    {
       "id": "a9306b3b-82af-400a-bd35-23f6bc25bf7e",
       "name": "MediaExplorer",
       "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
@@ -359,7 +239,7 @@
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/MediaExplorer",
+        "oscAddressPattern": "/Tools/MediaExp",
         "oscArgIndex": 0
       },
       "mode": {
@@ -386,7 +266,7 @@
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/TrackMan",
+        "oscAddressPattern": "/Tools/TrackMan",
         "oscArgIndex": 0
       },
       "mode": {
@@ -406,33 +286,6 @@
       }
     },
     {
-      "id": "41d21b7a-ee00-4862-9da1-9df70799980e",
-      "name": "Monitor",
-      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/Control/Monitor",
-        "oscArgIndex": 0
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "feedbackColor": null
-      },
-      "target": {
-        "type": 0,
-        "commandName": "41882",
-        "trackGUID": "master",
-        "fxAnchor": "id",
-        "fxGUID": "239C5F16-BBFB-44E1-9CF8-0C03566EB9AE",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0
-      }
-    },
-    {
       "id": "5a5a6eb2-16bc-4be8-8447-e64762a7872c",
       "name": "Auto-Rename",
       "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
@@ -440,7 +293,7 @@
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/button744",
+        "oscAddressPattern": "/Tools/ReName",
         "oscArgIndex": 0
       },
       "mode": {
@@ -461,14 +314,14 @@
       }
     },
     {
-      "id": "56a707c7-51e0-4714-8110-ac3dfb74fa2d",
-      "name": "Expand",
-      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
+      "id": "bb0058f4-5c6d-442c-98f1-56f5ab071873",
+      "name": "Groove Tool",
+      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/folderExpand",
+        "oscAddressPattern": "/Tools/GrvTool",
         "oscArgIndex": 0
       },
       "mode": {
@@ -477,28 +330,49 @@
       },
       "target": {
         "type": 0,
-        "commandName": "2bbdc83ade749d4cbae7ed8d5f5b7f24",
-        "invocationType": 0,
-        "trackGUID": "A51B0705-CFC8-45D1-B458-D30A9C53FABC",
+        "commandName": "FNG_GROOVE_TOOL",
         "fxAnchor": "id",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "scrollArrangeView": true,
-        "scrollMixer": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "d61ac4d7-6c94-4c0d-8472-7b7c0d27f89a",
+      "name": "LFO Generator",
+      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Tools/LfoGen",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "PADRE_ENVLFO",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
         "oscArgIndex": 0
       },
       "feedbackIsEnabled": false
     },
     {
-      "id": "21e5caa6-9c6b-422e-9242-2aea39da73fa",
-      "name": "Collapse",
-      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
+      "id": "41d21b7a-ee00-4862-9da1-9df70799980e",
+      "name": "Monitor",
+      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/folderCollapse",
+        "oscAddressPattern": "/Tools/Monitor",
         "oscArgIndex": 0
       },
       "mode": {
@@ -507,28 +381,109 @@
       },
       "target": {
         "type": 0,
-        "commandName": "0e6e038650f45c4cbb65bbcc0e104f3d",
-        "invocationType": 0,
-        "trackGUID": "A51B0705-CFC8-45D1-B458-D30A9C53FABC",
+        "commandName": "41882",
+        "trackGUID": "master",
         "fxAnchor": "id",
+        "fxGUID": "239C5F16-BBFB-44E1-9CF8-0C03566EB9AE",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "scrollArrangeView": true,
-        "scrollMixer": true,
         "oscArgIndex": 0
-      },
-      "feedbackIsEnabled": false
+      }
     },
     {
-      "id": "1e6762b5-dbf2-4abc-8f87-2848a8952c42",
-      "name": "Previous Track",
-      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
+      "id": "5c54f0c4-ff8b-4cfb-bd5b-c5bc48f779db",
+      "name": "Realearn",
+      "groupId": "79bff492-2138-4729-bc76-4f67e95e0036",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/button739",
+        "oscAddressPattern": "/Tools/Realearn",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 27,
+        "trackGUID": "master",
+        "fxAnchor": "id",
+        "fxIndex": 8,
+        "fxGUID": "A1C5266D-E0D5-4F1C-853B-AB26FF552647",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "n0PSviHL6UEuMOpxp6e6p",
+      "name": "PeakMaster",
+      "groupId": "oWuKvNi5CmqcHbkHCKgmG",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/master/peak",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxTargetValue": 0.716,
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 34,
+        "trackGUID": "master",
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "feedbackResolution": "high",
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "DjmgxB9GrnNSxcAX6RoWV",
+      "name": "bigKnob",
+      "groupId": "oWuKvNi5CmqcHbkHCKgmG",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/bigKnob/bigKnob",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "unit": "percent",
+        "type": 20,
+        "invocationType": 2,
+        "trackGUID": "selected",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "feedbackResolution": "high",
+        "scrollMixer": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "6vjS_9qvgJWCMQK1njbpO",
+      "name": "t1",
+      "groupId": "oWuKvNi5CmqcHbkHCKgmG",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/gamepad/left",
         "oscArgIndex": 0
       },
       "mode": {
@@ -537,28 +492,27 @@
       },
       "target": {
         "type": 0,
-        "commandName": "40286",
+        "commandName": "40416",
         "invocationType": 0,
         "trackGUID": "selected",
         "fxAnchor": "id",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
+        "feedbackResolution": "high",
         "scrollArrangeView": true,
         "scrollMixer": true,
         "oscArgIndex": 0
-      },
-      "feedbackIsEnabled": false
+      }
     },
     {
-      "id": "57c19ecc-d79e-43f4-999f-69c0cc9c11e5",
-      "name": "Next Track",
-      "groupId": "a9766dea-d720-4bdf-a7e3-b8692e188a84",
+      "id": "MfNl4nTfH1QS2ARzILHtu",
+      "name": "t1",
+      "groupId": "oWuKvNi5CmqcHbkHCKgmG",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/button740",
+        "oscAddressPattern": "/gamepad/right",
         "oscArgIndex": 0
       },
       "mode": {
@@ -567,18 +521,75 @@
       },
       "target": {
         "type": 0,
-        "commandName": "40285",
+        "commandName": "40417",
         "invocationType": 0,
         "trackGUID": "selected",
         "fxAnchor": "id",
         "useProject": true,
         "moveView": true,
-        "seekPlay": true,
+        "feedbackResolution": "high",
         "scrollArrangeView": true,
         "scrollMixer": true,
         "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "-fqLezCkx1g7J_pvL7T2C",
+      "name": "t1",
+      "groupId": "oWuKvNi5CmqcHbkHCKgmG",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/gamepad/up",
+        "oscArgIndex": 0
       },
-      "feedbackIsEnabled": false
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40418",
+        "invocationType": 0,
+        "trackGUID": "selected",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "feedbackResolution": "high",
+        "scrollArrangeView": true,
+        "scrollMixer": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "55VOif1CJkRw5tiBi2BEE",
+      "name": "t1",
+      "groupId": "oWuKvNi5CmqcHbkHCKgmG",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/gamepad/down",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 0,
+        "commandName": "40419",
+        "invocationType": 0,
+        "trackGUID": "selected",
+        "fxAnchor": "id",
+        "useProject": true,
+        "moveView": true,
+        "feedbackResolution": "high",
+        "scrollArrangeView": true,
+        "scrollMixer": true,
+        "oscArgIndex": 0
+      }
     },
     {
       "id": "uzNUh3EYStkh4c8qdcSNp",
@@ -588,7 +599,7 @@
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/AB",
+        "oscAddressPattern": "/SwitchA/AB",
         "oscArgIndex": 0
       },
       "mode": {
@@ -615,7 +626,7 @@
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/FFT",
+        "oscAddressPattern": "/SwitchA/FFT",
         "oscArgIndex": 0
       },
       "mode": {
@@ -642,7 +653,7 @@
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/Balance",
+        "oscAddressPattern": "/SwitchA/BAL",
         "oscArgIndex": 0
       },
       "mode": {
@@ -669,7 +680,7 @@
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/Room",
+        "oscAddressPattern": "/SwitchA/Room",
         "oscArgIndex": 0
       },
       "mode": {
@@ -689,14 +700,14 @@
       }
     },
     {
-      "id": "UVzLc5bwC5EmGsD4I1l7d",
-      "name": "AB Switch",
+      "id": "WkDvdjEUw2xyo1GivrP1z",
+      "name": "Highs",
       "groupId": "9B_oIsOD6RPq2um8MaRWy",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/AB-Switch",
+        "oscAddressPattern": "/SwitchB/Highs",
         "oscArgIndex": 0
       },
       "mode": {
@@ -704,10 +715,11 @@
         "feedbackColor": null
       },
       "target": {
-        "trackGUID": "master",
+        "type": 12,
         "fxAnchor": "name",
-        "fxName": "AB",
+        "fxName": "Highs",
         "isInputFx": true,
+        "paramIndex": 12,
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
@@ -715,14 +727,68 @@
       }
     },
     {
-      "id": "LvGoElP9hVTHIvJueD5Li",
+      "id": "RdxDG1al_xNgeOP-XHPEp",
+      "name": "Mids",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SwitchB/Mids",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 12,
+        "fxAnchor": "name",
+        "fxName": "Mids",
+        "isInputFx": true,
+        "paramIndex": 12,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "KeuzieGghULpQzgW3ikNH",
+      "name": "Lows",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SwitchB/Lows",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 12,
+        "fxAnchor": "name",
+        "fxName": "Lows",
+        "isInputFx": true,
+        "paramIndex": 12,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "criFMVKQ8098lFDYCeNzd",
       "name": "Subs",
       "groupId": "9B_oIsOD6RPq2um8MaRWy",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/Subs",
+        "oscAddressPattern": "/SwitchB/Subs",
         "oscArgIndex": 0
       },
       "mode": {
@@ -742,33 +808,6 @@
       }
     },
     {
-      "id": "WkDvdjEUw2xyo1GivrP1z",
-      "name": "Mids",
-      "groupId": "9B_oIsOD6RPq2um8MaRWy",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/Control/Mids",
-        "oscArgIndex": 0
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "feedbackColor": null
-      },
-      "target": {
-        "type": 12,
-        "trackGUID": "master",
-        "fxAnchor": "name",
-        "fxName": "Mids",
-        "isInputFx": true,
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0
-      }
-    },
-    {
       "id": "Us77B1gvHqkmgUeFKCE1E",
       "name": "Pad-L",
       "groupId": "9B_oIsOD6RPq2um8MaRWy",
@@ -776,7 +815,7 @@
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/pad1",
+        "oscAddressPattern": "/SwitchC/Pad1",
         "oscArgIndex": 0
       },
       "mode": {
@@ -803,7 +842,7 @@
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/pad2",
+        "oscAddressPattern": "/SwitchC/Pad2",
         "oscArgIndex": 0
       },
       "mode": {
@@ -823,14 +862,40 @@
       }
     },
     {
-      "id": "0ts8AxapzX_1LVnQW2fF0",
-      "name": "Room",
+      "id": "UVzLc5bwC5EmGsD4I1l7d",
+      "name": "AB Toggle",
       "groupId": "9B_oIsOD6RPq2um8MaRWy",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/Control/Room-Trigger",
+        "oscAddressPattern": "/SwitchC/AB-",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackGUID": "master",
+        "fxAnchor": "name",
+        "fxName": "AB",
+        "isInputFx": true,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "0ts8AxapzX_1LVnQW2fF0",
+      "name": "Room Toggle",
+      "groupId": "9B_oIsOD6RPq2um8MaRWy",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/SwitchC/Room-",
         "oscArgIndex": 0
       },
       "mode": {
@@ -1203,6 +1268,638 @@
         "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
       },
       "isEnabled": false
+    },
+    {
+      "id": "DR4LwQFutr3f2KS2Sfyit",
+      "name": "DeviceFxSelect",
+      "groupId": "BgJNN-P5K6paIzh1FAL-V",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/device/fx/select",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 2,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "gg7Rd4LZQu64Kg2sxUi-z",
+      "name": "fxParam1Value",
+      "groupId": "BgJNN-P5K6paIzh1FAL-V",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/desk/1/fx/1/fxparam/1/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_index",
+        "fxAnchor": "dynamic",
+        "fxExpression": "p3 * 1000",
+        "paramType": "index-manual",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "vjr9CgtyoS_vsi9i0tXoC",
+      "name": "fxParam1Name",
+      "groupId": "BgJNN-P5K6paIzh1FAL-V",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/desk/1/fx/1/fxparam/1/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "dynamic",
+        "fxExpression": "p3 * 1000",
+        "paramType": "index-manual",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "7Ufgya-yRIgJi7tRqxWRJ",
+      "name": "fxParam1ValueStr",
+      "groupId": "BgJNN-P5K6paIzh1FAL-V",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/desk/1/fx/1/fxparam/1/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "dynamic",
+        "fxExpression": "p3 * 1000",
+        "paramType": "index-manual",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "X8PHnjFD2pyYnCYFsJ_bu",
+      "name": "fxParam1ValueStr",
+      "groupId": "BgJNN-P5K6paIzh1FAL-V",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/bigKnob/radar/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackGUID": "selected",
+        "fxAnchor": "index",
+        "paramType": "index-manual",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      },
+      "sendFeedbackAfterControl": true
+    },
+    {
+      "id": "dEVz0NUSrNHfqNgrHhFqL",
+      "name": "Monitor",
+      "groupId": "07M-eqxurmImcKh5d7ShY",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Pager/1",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 10,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "KJ7IuXLifs6Vp5JUoaRqv",
+      "name": "Mixer",
+      "groupId": "07M-eqxurmImcKh5d7ShY",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Pager/2",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 11,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "b9aaOJJLvVAKuAy0pDm0B",
+      "name": "Rack",
+      "groupId": "07M-eqxurmImcKh5d7ShY",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Pager/3",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 12,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "XTuOkQdtDnHtQBOjlBV00",
+      "name": "Desk",
+      "groupId": "07M-eqxurmImcKh5d7ShY",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Pager/4",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 13,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "kTWwiQGKtrU40y6VPRdh6",
+      "name": "Effect",
+      "groupId": "07M-eqxurmImcKh5d7ShY",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Pager/5",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 14,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "y_Cc1CJtjLc_tGpS_kE8h",
+      "name": "Keys",
+      "groupId": "07M-eqxurmImcKh5d7ShY",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Pager/6",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 15,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "s5dAAXwcucxyt-O9xhU1j",
+      "name": "MIDI",
+      "groupId": "07M-eqxurmImcKh5d7ShY",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Pager/7",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 16,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "EgaPHls_0m7yN4em4wh1S",
+      "name": "Config",
+      "groupId": "07M-eqxurmImcKh5d7ShY",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/Pager/8",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "fxAnchor": "this",
+        "paramIndex": 17,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "SEwZFLhPj-wSrNP4nKzpQ",
+      "name": "Marker",
+      "groupId": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 22,
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "axd6yV2Iuuqzd6dfnDnnr",
+      "name": "Marker",
+      "groupId": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 22,
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "bookmarkRef": 1,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "tErR7krouSIRNtRTZs5WM",
+      "name": "Marker",
+      "groupId": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 22,
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "bookmarkRef": 2,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "b43il3yYwyyC-4oAnz4fC",
+      "name": "Marker",
+      "groupId": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 22,
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "bookmarkRef": 3,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "p59DTCUO5ronKtciVrI8G",
+      "name": "Marker",
+      "groupId": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 22,
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "bookmarkRef": 4,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "nHpFBkY5c2Z5z0nGZTi_o",
+      "name": "Marker",
+      "groupId": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 22,
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "bookmarkRef": 5,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "Y_d0IfvWFj1QWo9gkSkjN",
+      "name": "Marker",
+      "groupId": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 22,
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "bookmarkRef": 6,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "t1CbtDaUHZA03Sw4LQQ7n",
+      "name": "Marker",
+      "groupId": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 22,
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "bookmarkRef": 7,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "RhWQ2zjwuQ8euyLelEtcs",
+      "name": "Marker",
+      "groupId": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 22,
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "bookmarkRef": 8,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "qIZbqCLf5zbF2QFLrOz95",
+      "name": "Marker",
+      "groupId": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 22,
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "bookmarkRef": 9,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f_ltOfSBkSfRMfudOIYVo",
+      "name": "Marker",
+      "groupId": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 22,
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "bookmarkRef": 10,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "CqSW0tfGNGF--PWrOsO9y",
+      "name": "Marker",
+      "groupId": "1Q9NP5KHzQ2FEYZqvcAKH",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "type": 22,
+        "fxAnchor": "id",
+        "bookmarkAnchor": "Index",
+        "bookmarkRef": 11,
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
     }
   ]
 }

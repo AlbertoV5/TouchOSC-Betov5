@@ -311,8 +311,8 @@ TRACK_VOLUME n/track/volume n/track/@/volume
 TRACK_VOLUME s/track/volume/str s/track/@/volume/str
 TRACK_VOLUME f/track/volume/db f/track/@/volume/db
 TRACK_PAN n/track/pan n/track/@/pan s/track/pan/str s/track/@/pan/str
-#TRACK_PAN2 n/track/pan2 n/track/@/pan2 s/track/pan2/str s/track/@/pan2/str
-#TRACK_PAN_MODE s/track/panmode s/track/@/panmode
+TRACK_PAN2 n/track/pan2 n/track/@/pan2 s/track/pan2/str s/track/@/pan2/str
+TRACK_PAN_MODE s/track/panmode s/track/@/panmode
 
 TRACK_SEND_NAME s/track/send/@/name s/track/@/send/@/name
 TRACK_SEND_VOLUME n/track/send/@/volume n/track/@/send/@/volume
@@ -350,7 +350,7 @@ FX_NEXT_PRESET t/fx/preset+ t/fx/@/preset+
 
 FX_PARAM_NAME s/fxparam/@/name s/fx/@/fxparam/@/name
 
-FX_PARAM_VALUE n/fxparam/@/value n/fx/@/fxparam/@/value n/track/@/fx/@/fxparam/@/value
+FX_PARAM_VALUE n/fxparam/@/value n/fx/@/fxparam/@/value
 FX_PARAM_VALUE s/fxparam/@/value/str s/fx/@/fxparam/@/value/str
 
 ######## HERE PUT THE EQ PARAM STUFF
