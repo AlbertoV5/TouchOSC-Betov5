@@ -1,0 +1,31 @@
+{
+    "id": "su_sRSqB2ny7NKYaLTao4",
+    "name": "Track1_Fx1_Name",
+    "groupId": "O6gFZNRmB9TWepIkzTocv",
+    "source": {
+      "category": "osc",
+      "isRegistered": false,
+      "is14Bit": false,
+      "oscAddressPattern": "/track/1/fx/1/name",
+      "oscArgIndex": 0,
+      "oscArgType": "string"
+    },
+    "mode": {
+      "maxStepSize": 0.05,
+      "eelFeedbackTransformation": "{{target.fx.name}}",
+      "feedbackColor": null,
+      "feedbackType": 1
+    },
+    "target": {
+      "type": 12,
+      "trackExpression": "selected_track_index + (p[9] * 1000)",
+      "fxAnchor": "dynamic",
+      "fxExpression": "0",
+      "paramType": "dynamic",
+      "paramExpression": "p[11] * 1000",
+      "useProject": true,
+      "moveView": true,
+      "seekPlay": true,
+      "oscArgIndex": 0
+    }
+  }
