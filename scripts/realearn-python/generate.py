@@ -8,7 +8,7 @@ import json
 directory = Path.cwd()
 filePath = directory / "mapping.json"
 
-trackNum = 2
+trackNum = 1
 fxRange = 16
 jsonData = {"kind": "Mappings", "value":[]}
 

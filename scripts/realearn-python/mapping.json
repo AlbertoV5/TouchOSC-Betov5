@@ -1,12 +1,12 @@
 {
-    "id": "su_sRSqB2ny7NKYaLTao4",
-    "name": "Track1_Fx1_Name",
-    "groupId": "O6gFZNRmB9TWepIkzTocv",
+    "id": "8b0cf35d-d857-4f74-94bc-c12e34eb2427",
+    "name": "Track2_Fx1_Name",
+    "groupId": "9TacY0DzD-vums6XuldtA",
     "source": {
       "category": "osc",
       "isRegistered": false,
       "is14Bit": false,
-      "oscAddressPattern": "/track/1/fx/1/name",
+      "oscAddressPattern": "/track/2/fx/1/name",
       "oscArgIndex": 0,
       "oscArgType": "string"
     },
@@ -18,14 +18,14 @@
     },
     "target": {
       "type": 12,
-      "trackExpression": "selected_track_index + (p[9] * 1000)",
+      "trackExpression": "selected_track_index + (p[19] * 1000)",
       "fxAnchor": "dynamic",
       "fxExpression": "0",
       "paramType": "dynamic",
-      "paramExpression": "p[11] * 1000",
+      "paramExpression": "",
       "useProject": true,
       "moveView": true,
       "seekPlay": true,
       "oscArgIndex": 0
     }
-  }
+}
