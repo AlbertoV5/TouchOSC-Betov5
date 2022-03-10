@@ -2,299 +2,499 @@
   "kind": "Mappings",
   "value": [
     {
-      "id": "3c169d90-09ea-4ad6-bca9-7fddcf89c7d6",
-      "name": "Track Color 1",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "8b0cf35d-d857-4f74-94bc-c12e34eb2427",
+      "name": "Track2_Fx1_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/1/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/track/2/fx/1/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
         "feedbackType": 1
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 0",
-        "fxAnchor": "id",
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "0",
+        "paramType": "dynamic",
+        "paramExpression": "",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+        "oscArgIndex": 0
       }
     },
     {
-      "id": "f396597f-a664-435d-9c85-3ef543108911",
-      "name": "Track Color 2",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "8af284b9-00b5-4d2c-a637-3c69697e8c95",
+      "name": "Track2_Fx2_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/2/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/track/2/fx/2/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
         "feedbackType": 1
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 1",
-        "fxAnchor": "id",
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "1",
+        "paramType": "dynamic",
+        "paramExpression": "",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+        "oscArgIndex": 0
       }
     },
     {
-      "id": "48e5cdec-97ea-42fd-b1de-43ba98c4bbe5",
-      "name": "Track Color 3",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "21f79e39-fd64-4913-b422-0c4d9ced3633",
+      "name": "Track2_Fx3_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/3/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/track/2/fx/3/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
         "feedbackType": 1
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 2",
-        "fxAnchor": "id",
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "2",
+        "paramType": "dynamic",
+        "paramExpression": "",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+        "oscArgIndex": 0
       }
     },
     {
-      "id": "645a7faf-ac38-4fff-a01c-5b642ef8e30b",
-      "name": "Track Color 4",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "ecb1dff1-1c90-41b6-ac36-7726cf20eb52",
+      "name": "Track2_Fx4_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/4/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/track/2/fx/4/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
         "feedbackType": 1
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 3",
-        "fxAnchor": "id",
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "3",
+        "paramType": "dynamic",
+        "paramExpression": "",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+        "oscArgIndex": 0
       }
     },
     {
-      "id": "998660e1-4f5e-4e4b-817d-111f169311b9",
-      "name": "Track Color 5",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "2a113d99-54d9-4fc8-b1dd-0ae30b2be746",
+      "name": "Track2_Fx5_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/5/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/track/2/fx/5/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
         "feedbackType": 1
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 4",
-        "fxAnchor": "id",
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "4",
+        "paramType": "dynamic",
+        "paramExpression": "",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+        "oscArgIndex": 0
       }
     },
     {
-      "id": "b66a0f68-948d-4451-a49d-d9624e247519",
-      "name": "Track Color 6",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "11046acf-b063-4f5e-bebc-d724ee7c12be",
+      "name": "Track2_Fx6_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/6/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/track/2/fx/6/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
         "feedbackType": 1
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 5",
-        "fxAnchor": "id",
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "5",
+        "paramType": "dynamic",
+        "paramExpression": "",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+        "oscArgIndex": 0
       }
     },
     {
-      "id": "2adfb66b-c15b-4eb7-bac8-7c227f8b62a8",
-      "name": "Track Color 7",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "11c7c914-676e-47be-803d-1723da1a6e57",
+      "name": "Track2_Fx7_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/7/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/track/2/fx/7/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
         "feedbackType": 1
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 6",
-        "fxAnchor": "id",
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "6",
+        "paramType": "dynamic",
+        "paramExpression": "",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+        "oscArgIndex": 0
       }
     },
     {
-      "id": "ab2e83ac-573a-41bd-ba2c-43b7c628ea6a",
-      "name": "Track Color 8",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "808702cd-60df-4264-b760-f561197b74de",
+      "name": "Track2_Fx8_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/8/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/track/2/fx/8/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
         "feedbackType": 1
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 7",
-        "fxAnchor": "id",
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "7",
+        "paramType": "dynamic",
+        "paramExpression": "",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "c489d1c0-0278-4540-b960-0319c6df9922",
+      "name": "Track2_Fx9_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/2/fx/9/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "8",
+        "paramType": "dynamic",
+        "paramExpression": "",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "49616997-fced-4129-a497-b9d380d3a7ef",
+      "name": "Track2_Fx10_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/2/fx/10/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "9",
+        "paramType": "dynamic",
+        "paramExpression": "",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "9e172568-2a39-4c0a-bc13-fd28ccd64054",
+      "name": "Track2_Fx11_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/2/fx/11/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "10",
+        "paramType": "dynamic",
+        "paramExpression": "",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e3e26f0d-ce33-482c-9a7a-172433ce913b",
+      "name": "Track2_Fx12_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/2/fx/12/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "11",
+        "paramType": "dynamic",
+        "paramExpression": "",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e2814f05-2126-4496-b48b-2dfcfb95f406",
+      "name": "Track2_Fx13_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/2/fx/13/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "12",
+        "paramType": "dynamic",
+        "paramExpression": "",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f3e98c61-ea0d-426b-928e-59da448f4d84",
+      "name": "Track2_Fx14_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/2/fx/14/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "13",
+        "paramType": "dynamic",
+        "paramExpression": "",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "3da1c328-ddd9-4d63-84be-54922223f04d",
+      "name": "Track2_Fx15_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/2/fx/15/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "14",
+        "paramType": "dynamic",
+        "paramExpression": "",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "7356d776-76a0-4162-b5b7-ceeef477319b",
+      "name": "Track2_Fx16_Name",
+      "groupId": "O6gFZNRmB9TWepIkzTocv",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/track/2/fx/16/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "type": 12,
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "dynamic",
+        "fxExpression": "15",
+        "paramType": "dynamic",
+        "paramExpression": "",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
       }
     }
   ]
