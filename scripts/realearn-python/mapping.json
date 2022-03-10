@@ -1,31 +1,40 @@
 {
-    "id": "8b0cf35d-d857-4f74-94bc-c12e34eb2427",
-    "name": "Track2_Fx1_Name",
-    "groupId": "9TacY0DzD-vums6XuldtA",
+  "kind": "Mapping",
+  "value": {
+    "id": "4e583b04-9471-46ad-bb10-0a9cdd3776aa",
+    "name": "Track Color 1",
+    "groupId": "RboYuopEEknK6vuwtEmN_",
     "source": {
       "category": "osc",
       "isRegistered": false,
       "is14Bit": false,
-      "oscAddressPattern": "/track/2/fx/1/name",
-      "oscArgIndex": 0,
-      "oscArgType": "string"
+      "oscAddressPattern": "/track/1/color",
+      "oscArgType": "string",
+      "oscFeedbackArgs": [
+        "style.color.rrggbb"
+      ]
     },
     "mode": {
       "maxStepSize": 0.05,
-      "eelFeedbackTransformation": "{{target.fx.name}}",
-      "feedbackColor": null,
+      "feedbackColor": {
+        "prop": "target.track.color"
+      },
+      "feedbackBackgroundColor": {
+        "prop": "target.track.color"
+      },
       "feedbackType": 1
     },
     "target": {
-      "type": 12,
-      "trackExpression": "selected_track_index + (p[19] * 1000)",
-      "fxAnchor": "dynamic",
-      "fxExpression": "0",
-      "paramType": "dynamic",
-      "paramExpression": "",
+      "unit": "percent",
+      "type": 44,
+      "trackExpression": "(p[90] * p[91] * 100000) + 0",
+      "fxAnchor": "id",
       "useProject": true,
       "moveView": true,
       "seekPlay": true,
-      "oscArgIndex": 0
+      "oscAddressPattern": "track/1/color",
+      "oscArgType": "string",
+      "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
     }
+  }
 }

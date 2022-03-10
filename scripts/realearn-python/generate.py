@@ -8,22 +8,18 @@ import json
 directory = Path.cwd()
 filePath = directory / "mapping.json"
 
-trackNum = 1
-fxRange = 16
 jsonData = {"kind": "Mappings", "value":[]}
 
-for i in range(fxRange):
-    name = "Track" + str(trackNum) + "_Fx" + str(i+1) + "_Name"
+for i in range(1,9):
 
     with open(filePath, "r") as file:
-        jsm = json.loads(file.read())
+        jsm = json.loads(file.read())["value"]
 
     jsm["id"] = str(uuid4())
-    jsm["name"] = name
-    jsm["source"]["oscAddressPattern"] = "/track/" + str(trackNum) + "/fx/" + str(i+1) + "/name"
-    jsm["target"]["trackExpression"] = "selected_track_index + (p[" + str(9 + (trackNum-1)*10) + "] * 1000)"
-    jsm["target"]["fxExpression"] = str(i)
-    jsm["target"]["paramExpression"] = ""
+    jsm["name"] = "Track Color " + str(i)
+    jsm["source"]["oscAddressPattern"] = "/track/" + str(i) + "/color"
+
+    jsm["target"]["trackExpression"] = "(p[90] * p[91] * 100000) + " + str(i-1)
 
     jsonData["value"].append(jsm)
 
