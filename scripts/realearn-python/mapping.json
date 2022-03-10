@@ -1,31 +1,40 @@
 {
-    "id": "su_sRSqB2ny7NKYaLTao4",
-    "name": "Track1_Fx1_Name",
-    "groupId": "O6gFZNRmB9TWepIkzTocv",
+  "kind": "Mapping",
+  "value": {
+    "id": "4e583b04-9471-46ad-bb10-0a9cdd3776aa",
+    "name": "Track Color 1",
+    "groupId": "RboYuopEEknK6vuwtEmN_",
     "source": {
       "category": "osc",
       "isRegistered": false,
       "is14Bit": false,
-      "oscAddressPattern": "/track/1/fx/1/name",
-      "oscArgIndex": 0,
-      "oscArgType": "string"
+      "oscAddressPattern": "/track/1/color",
+      "oscArgType": "string",
+      "oscFeedbackArgs": [
+        "style.color.rrggbb"
+      ]
     },
     "mode": {
       "maxStepSize": 0.05,
-      "eelFeedbackTransformation": "{{target.fx.name}}",
-      "feedbackColor": null,
+      "feedbackColor": {
+        "prop": "target.track.color"
+      },
+      "feedbackBackgroundColor": {
+        "prop": "target.track.color"
+      },
       "feedbackType": 1
     },
     "target": {
-      "type": 12,
-      "trackExpression": "selected_track_index + (p[9] * 1000)",
-      "fxAnchor": "dynamic",
-      "fxExpression": "0",
-      "paramType": "dynamic",
-      "paramExpression": "p[11] * 1000",
+      "unit": "percent",
+      "type": 44,
+      "trackExpression": "(p[90] * p[91] * 100000) + 0",
+      "fxAnchor": "id",
       "useProject": true,
       "moveView": true,
       "seekPlay": true,
-      "oscArgIndex": 0
+      "oscAddressPattern": "track/1/color",
+      "oscArgType": "string",
+      "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
     }
   }
+}
