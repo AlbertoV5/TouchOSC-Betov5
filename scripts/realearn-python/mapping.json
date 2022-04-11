@@ -1,40 +1,32 @@
 {
   "kind": "Mapping",
   "value": {
-    "id": "4e583b04-9471-46ad-bb10-0a9cdd3776aa",
-    "name": "Track Color 1",
-    "groupId": "RboYuopEEknK6vuwtEmN_",
+    "id": "Ka_9j-ehN6MgYA3tLhrOp",
+    "name": "val",
+    "groupId": "BxdtiVP5sEuRAC2_hgMHD",
     "source": {
       "category": "osc",
       "isRegistered": false,
       "is14Bit": false,
-      "oscAddressPattern": "/track/1/color",
-      "oscArgType": "string",
-      "oscFeedbackArgs": [
-        "style.color.rrggbb"
-      ]
+      "oscAddressPattern": "/channel/track/1/fxparam/1/value",
+      "oscArgIndex": 0
     },
     "mode": {
       "maxStepSize": 0.05,
-      "feedbackColor": {
-        "prop": "target.track.color"
-      },
-      "feedbackBackgroundColor": {
-        "prop": "target.track.color"
-      },
-      "feedbackType": 1
+      "reverseIsEnabled": true,
+      "feedbackColor": null
     },
     "target": {
-      "unit": "percent",
-      "type": 44,
-      "trackExpression": "(p[90] * p[91] * 100000) + 0",
-      "fxAnchor": "id",
+      "trackExpression": "selected_track_index + (p[9] * 1000)",
+      "fxAnchor": "name",
+      "fxName": "Channel",
+      "paramType": "name",
+      "paramName": "LP",
       "useProject": true,
       "moveView": true,
       "seekPlay": true,
-      "oscAddressPattern": "track/1/color",
-      "oscArgType": "string",
-      "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
-    }
+      "oscArgIndex": 0
+    },
+    "isEnabled": false
   }
 }

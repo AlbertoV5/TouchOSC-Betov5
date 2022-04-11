@@ -2,300 +2,439 @@
   "kind": "Mappings",
   "value": [
     {
-      "id": "3c169d90-09ea-4ad6-bca9-7fddcf89c7d6",
-      "name": "Track Color 1",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "41122f6b-71a2-49f8-b3b1-a22bce8db92b",
+      "name": "LPF value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/1/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/channel/track/2/fxparam/1/value",
+        "oscArgIndex": 0
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackType": 1
+        "reverseIsEnabled": true,
+        "feedbackColor": null
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 0",
-        "fxAnchor": "id",
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "LPF",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
-      }
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
     },
     {
-      "id": "f396597f-a664-435d-9c85-3ef543108911",
-      "name": "Track Color 2",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "0216ffa3-5f87-4f49-9727-2d32dab0b82a",
+      "name": "HPF value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/2/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/channel/track/2/fxparam/2/value",
+        "oscArgIndex": 0
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackType": 1
+        "reverseIsEnabled": true,
+        "feedbackColor": null
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 1",
-        "fxAnchor": "id",
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "HPF",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
-      }
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
     },
     {
-      "id": "48e5cdec-97ea-42fd-b1de-43ba98c4bbe5",
-      "name": "Track Color 3",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "e2fd028a-4819-471b-855a-6a11e96f62a9",
+      "name": "1DB value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/3/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/channel/track/2/fxparam/3/value",
+        "oscArgIndex": 0
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackType": 1
+        "reverseIsEnabled": true,
+        "feedbackColor": null
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 2",
-        "fxAnchor": "id",
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "1DB",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
-      }
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
     },
     {
-      "id": "645a7faf-ac38-4fff-a01c-5b642ef8e30b",
-      "name": "Track Color 4",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "15ff85f4-c1e8-4624-a649-06cdb44da573",
+      "name": "1FQ value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/4/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/channel/track/2/fxparam/4/value",
+        "oscArgIndex": 0
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackType": 1
+        "reverseIsEnabled": true,
+        "feedbackColor": null
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 3",
-        "fxAnchor": "id",
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "1FQ",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
-      }
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
     },
     {
-      "id": "998660e1-4f5e-4e4b-817d-111f169311b9",
-      "name": "Track Color 5",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "a9263bdd-c45e-4c23-bb39-8a072527592d",
+      "name": "2DB value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/5/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/channel/track/2/fxparam/5/value",
+        "oscArgIndex": 0
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackType": 1
+        "reverseIsEnabled": true,
+        "feedbackColor": null
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 4",
-        "fxAnchor": "id",
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "2DB",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
-      }
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
     },
     {
-      "id": "b66a0f68-948d-4451-a49d-d9624e247519",
-      "name": "Track Color 6",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "aab912ca-fcfe-4b8c-a49a-936546c610c8",
+      "name": "2FQ value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/6/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/channel/track/2/fxparam/6/value",
+        "oscArgIndex": 0
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackType": 1
+        "reverseIsEnabled": true,
+        "feedbackColor": null
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 5",
-        "fxAnchor": "id",
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "2FQ",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
-      }
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
     },
     {
-      "id": "2adfb66b-c15b-4eb7-bac8-7c227f8b62a8",
-      "name": "Track Color 7",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "939d46c1-9e02-49da-9538-fafa33a5ba64",
+      "name": "3DB value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/7/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/channel/track/2/fxparam/7/value",
+        "oscArgIndex": 0
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackType": 1
+        "reverseIsEnabled": true,
+        "feedbackColor": null
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 6",
-        "fxAnchor": "id",
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "3DB",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
-      }
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
     },
     {
-      "id": "ab2e83ac-573a-41bd-ba2c-43b7c628ea6a",
-      "name": "Track Color 8",
-      "groupId": "RboYuopEEknK6vuwtEmN_",
+      "id": "5282f77e-9954-415c-bc77-f76dc25ce30d",
+      "name": "3FQ value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/track/8/color",
-        "oscArgType": "string",
-        "oscFeedbackArgs": [
-          "style.color.rrggbb"
-        ]
+        "oscAddressPattern": "/channel/track/2/fxparam/8/value",
+        "oscArgIndex": 0
       },
       "mode": {
         "maxStepSize": 0.05,
-        "feedbackColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackBackgroundColor": {
-          "prop": "target.track.color"
-        },
-        "feedbackType": 1
+        "reverseIsEnabled": true,
+        "feedbackColor": null
       },
       "target": {
-        "unit": "percent",
-        "type": 44,
-        "trackExpression": "(p[90] * p[91] * 100000) + 7",
-        "fxAnchor": "id",
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "3FQ",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
-        "oscAddressPattern": "track/1/color",
-        "oscArgType": "string",
-        "oscDevId": "6f677dca-9919-4140-94f2-6c52b1e981ed"
-      }
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "b8158db9-fc1a-4f20-b6d0-25156953bd3c",
+      "name": "4DB value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/9/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "4DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "9e8c3039-7d8d-4b1d-868c-603d67d16574",
+      "name": "4FQ value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/10/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "4FQ",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "cddfa986-00ee-49ed-a81a-48c135f1176e",
+      "name": "CTR value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/11/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "CTR",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "a6d01034-33d5-47ac-914b-544a65b05fe8",
+      "name": "CRA value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/12/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "CRA",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "7c492bd2-ef21-4e6a-a7ba-d168e2edd761",
+      "name": "CAT value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/13/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "CAT",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "71e48ee0-fa58-477f-8ce8-958082c2be5c",
+      "name": "CRE value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/14/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "CRE",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
+    },
+    {
+      "id": "b136acc2-8f87-42f8-b7fa-cda9a537a60b",
+      "name": "CMO value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/15/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "reverseIsEnabled": true,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_index + (p[19] * 1000)",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "CMO",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      },
+      "isEnabled": false
     }
   ]
 }
