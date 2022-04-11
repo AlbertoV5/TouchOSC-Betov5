@@ -11,12 +11,13 @@ filePath = directory / "mapping.json"
 
 jsonData = {"kind": "Mappings", "value":[]}
 
-aliases = ["LPF", "HPF", "1DB", "1FQ", "2DB", "2FQ", "3DB", "3FQ", "4DB", "4FQ", "CTR", "CRA", "CAT", "CRE", "CMO"]
+aliases = ["LPF", "HPF", "1DB", "1FQ", "2DB", "2FQ", "3DB", "3FQ", "4DB", "4FQ", "CTR", "CRA", "CAT", "CRE", "CMO", "CMA"]
 
-control = "value"
+control = "name"
 
-trackNum = "2"
-expression = "selected_track_index + (p[19] * 1000)"
+trackNum = "1"
+#"selected_track_index + (p[9] * 1000)"
+expression = "selected_track_indexes[0]"
 
 for i in range(len(aliases)):
 

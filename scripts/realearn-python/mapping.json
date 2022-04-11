@@ -1,20 +1,22 @@
 {
   "kind": "Mapping",
   "value": {
-    "id": "Ka_9j-ehN6MgYA3tLhrOp",
-    "name": "val",
+    "id": "GPRXnLMeABugWHKfy2TM5",
+    "name": "str",
     "groupId": "BxdtiVP5sEuRAC2_hgMHD",
     "source": {
       "category": "osc",
       "isRegistered": false,
       "is14Bit": false,
-      "oscAddressPattern": "/channel/track/1/fxparam/1/value",
-      "oscArgIndex": 0
+      "oscAddressPattern": "/channel/track/1/fxparam/1/name",
+      "oscArgIndex": 0,
+      "oscArgType": "string"
     },
     "mode": {
       "maxStepSize": 0.05,
-      "reverseIsEnabled": true,
-      "feedbackColor": null
+      "eelFeedbackTransformation": "{{target.text_value}}",
+      "feedbackColor": null,
+      "feedbackType": 1
     },
     "target": {
       "trackExpression": "selected_track_index + (p[9] * 1000)",
@@ -25,8 +27,8 @@
       "useProject": true,
       "moveView": true,
       "seekPlay": true,
-      "oscArgIndex": 0
-    },
-    "isEnabled": false
+      "oscArgIndex": 0,
+      "pollForFeedback": false
+    }
   }
 }
