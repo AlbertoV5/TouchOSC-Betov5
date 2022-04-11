@@ -2,14 +2,14 @@
   "kind": "Mappings",
   "value": [
     {
-      "id": "9308d376-6d80-4a28-94e8-0e13b0c62ce6",
+      "id": "b4968c37-c769-4289-9fde-9584b02dc533",
       "name": "LPF value",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/1/value",
+        "oscAddressPattern": "/channel/track/2/fxparam/1/value",
         "oscArgIndex": 0
       },
       "mode": {
@@ -17,7 +17,7 @@
         "feedbackColor": null
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -29,14 +29,122 @@
       }
     },
     {
-      "id": "fa04c442-a3fb-4c18-b8fe-fb1f27b6ac92",
+      "id": "af52d544-9939-4dfe-b1bc-c9effd8de391",
+      "name": "1QF value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/2/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "1QF",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "9867d671-f026-4652-98b0-09a088fc02d2",
+      "name": "2QF value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/3/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "2QF",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "c8c06563-8db6-4e34-9ba0-cf118082cea4",
+      "name": "3QF value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/4/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "3QF",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "a3401b97-5003-4ad5-ab5f-1f4b664e52f4",
+      "name": "4QF value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/5/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "4QF",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "73cba7c1-eebf-41ed-99f1-506b29790997",
       "name": "HPF value",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/2/value",
+        "oscAddressPattern": "/channel/track/2/fxparam/6/value",
         "oscArgIndex": 0
       },
       "mode": {
@@ -44,7 +152,7 @@
         "feedbackColor": null
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -56,41 +164,14 @@
       }
     },
     {
-      "id": "63500905-bfca-411c-acaf-bb6ba63346cf",
-      "name": "1DB value",
-      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/3/value",
-        "oscArgIndex": 0
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "feedbackColor": null
-      },
-      "target": {
-        "trackExpression": "selected_track_indexes[0]",
-        "fxAnchor": "name",
-        "fxName": "Channel",
-        "paramType": "name",
-        "paramName": "1DB",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0
-      }
-    },
-    {
-      "id": "0cbaa5f0-f0b1-4a91-a22c-22ae2e240226",
+      "id": "8835ebf7-1444-4243-baa0-203e3e29c1ad",
       "name": "1FQ value",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/4/value",
+        "oscAddressPattern": "/channel/track/2/fxparam/7/value",
         "oscArgIndex": 0
       },
       "mode": {
@@ -98,7 +179,7 @@
         "feedbackColor": null
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -110,41 +191,14 @@
       }
     },
     {
-      "id": "f76c772c-1442-467f-b967-60a3e4f6ac42",
-      "name": "2DB value",
-      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/5/value",
-        "oscArgIndex": 0
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "feedbackColor": null
-      },
-      "target": {
-        "trackExpression": "selected_track_indexes[0]",
-        "fxAnchor": "name",
-        "fxName": "Channel",
-        "paramType": "name",
-        "paramName": "2DB",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0
-      }
-    },
-    {
-      "id": "596aee27-c185-4bae-92ef-543feb55f659",
+      "id": "8aea0def-6e25-4727-80a7-9f65d4accd9e",
       "name": "2FQ value",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/6/value",
+        "oscAddressPattern": "/channel/track/2/fxparam/8/value",
         "oscArgIndex": 0
       },
       "mode": {
@@ -152,7 +206,7 @@
         "feedbackColor": null
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -164,41 +218,14 @@
       }
     },
     {
-      "id": "997fe394-6759-46c4-9c1c-15506a2d51c7",
-      "name": "3DB value",
-      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/7/value",
-        "oscArgIndex": 0
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "feedbackColor": null
-      },
-      "target": {
-        "trackExpression": "selected_track_indexes[0]",
-        "fxAnchor": "name",
-        "fxName": "Channel",
-        "paramType": "name",
-        "paramName": "3DB",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0
-      }
-    },
-    {
-      "id": "e163805b-43d7-44cf-9cb5-1688b57ebf9f",
+      "id": "a38b5d91-d319-4280-bd4c-7f35a486916d",
       "name": "3FQ value",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/8/value",
+        "oscAddressPattern": "/channel/track/2/fxparam/9/value",
         "oscArgIndex": 0
       },
       "mode": {
@@ -206,7 +233,7 @@
         "feedbackColor": null
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -218,41 +245,14 @@
       }
     },
     {
-      "id": "2c18489e-0c59-4d03-aadd-b360648445c3",
-      "name": "4DB value",
-      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/9/value",
-        "oscArgIndex": 0
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "feedbackColor": null
-      },
-      "target": {
-        "trackExpression": "selected_track_indexes[0]",
-        "fxAnchor": "name",
-        "fxName": "Channel",
-        "paramType": "name",
-        "paramName": "4DB",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0
-      }
-    },
-    {
-      "id": "ec001a93-7eb0-4e77-a040-b4560f3134f2",
+      "id": "99a0c8ab-02b5-47cf-a8ca-844007ba5af2",
       "name": "4FQ value",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/10/value",
+        "oscAddressPattern": "/channel/track/2/fxparam/10/value",
         "oscArgIndex": 0
       },
       "mode": {
@@ -260,7 +260,7 @@
         "feedbackColor": null
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -272,14 +272,149 @@
       }
     },
     {
-      "id": "25e7220d-e84d-4d19-9545-0452f5248896",
+      "id": "5029bfb9-cab5-4c8c-831b-0a67333680d9",
+      "name": "INP value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/11/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "INP",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "08d28200-ceaa-4de7-8df3-5e73ccc33aa8",
+      "name": "1DB value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/12/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "1DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f9e4ce03-aac8-4d03-8a63-ad4a51b68487",
+      "name": "2DB value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/13/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "2DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "52a66cf7-8b2b-4e03-90d8-4536c7c95e2f",
+      "name": "3DB value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/14/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "3DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "fe9877d2-3a9f-4054-bbea-aef2ff4247ae",
+      "name": "4DB value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/15/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "4DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "9cd26847-c3ea-4c86-9442-feba056d5ed5",
       "name": "CTR value",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/11/value",
+        "oscAddressPattern": "/channel/track/2/fxparam/16/value",
         "oscArgIndex": 0
       },
       "mode": {
@@ -287,7 +422,7 @@
         "feedbackColor": null
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -299,14 +434,14 @@
       }
     },
     {
-      "id": "93e8ebe4-bc37-42ea-aa74-911a97309438",
+      "id": "09d3f667-258c-47cc-800e-dd3a514d0467",
       "name": "CRA value",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/12/value",
+        "oscAddressPattern": "/channel/track/2/fxparam/17/value",
         "oscArgIndex": 0
       },
       "mode": {
@@ -314,7 +449,7 @@
         "feedbackColor": null
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -326,14 +461,14 @@
       }
     },
     {
-      "id": "a9b0af4e-beda-4065-aa58-1ebbecd9312f",
+      "id": "d5758a04-c197-473d-b8bb-fd64cff68041",
       "name": "CAT value",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/13/value",
+        "oscAddressPattern": "/channel/track/2/fxparam/18/value",
         "oscArgIndex": 0
       },
       "mode": {
@@ -341,7 +476,7 @@
         "feedbackColor": null
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -353,14 +488,14 @@
       }
     },
     {
-      "id": "d5fd1aaf-ad67-4acd-a71c-db81efe10248",
+      "id": "c06ae863-190f-4bc5-88c9-4ab68b721672",
       "name": "CRE value",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/14/value",
+        "oscAddressPattern": "/channel/track/2/fxparam/19/value",
         "oscArgIndex": 0
       },
       "mode": {
@@ -368,7 +503,7 @@
         "feedbackColor": null
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -380,14 +515,14 @@
       }
     },
     {
-      "id": "fa1ed4c2-6205-4647-8b49-4f59734fefef",
+      "id": "ec644953-2830-4ca7-90c6-21ad97c192ec",
       "name": "CMO value",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/15/value",
+        "oscAddressPattern": "/channel/track/2/fxparam/20/value",
         "oscArgIndex": 0
       },
       "mode": {
@@ -395,7 +530,7 @@
         "feedbackColor": null
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -407,14 +542,14 @@
       }
     },
     {
-      "id": "c5cb5d61-e9c1-4183-a2da-e157394b1ce7",
-      "name": "CMA value",
+      "id": "8e589b54-8ba0-4db8-a32f-e43e9139e1e9",
+      "name": "OUT value",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/16/value",
+        "oscAddressPattern": "/channel/track/2/fxparam/21/value",
         "oscArgIndex": 0
       },
       "mode": {
@@ -422,11 +557,11 @@
         "feedbackColor": null
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
-        "paramName": "CMA",
+        "paramName": "OUT",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
@@ -434,14 +569,257 @@
       }
     },
     {
-      "id": "bbdf54cb-0ee5-4fba-ba5f-ca0d22d74338",
+      "id": "8b9ba2fd-cd30-4f16-b082-5cfb043fbee3",
+      "name": "GTR value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/22/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GTR",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "8a074bf9-db9b-4185-a1f9-82fe8363729a",
+      "name": "GRA value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/23/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GRA",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "86fa560d-5583-4531-9bd3-a67563bdb5d8",
+      "name": "GAT value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/24/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GAT",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "76c70bb0-0e96-4fa1-9a6c-29a42742aa22",
+      "name": "GRE value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/25/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GRE",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "0539a154-89e3-497c-b293-0e98c60104c9",
+      "name": "GHO value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/26/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GHO",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "f57153e4-eb47-43d6-adbf-ca142ed1c7a3",
+      "name": "GEX value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/27/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GEX",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "a7bd7f25-07d5-4be4-87af-d5c34e27107a",
+      "name": "POL value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/28/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "POL",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "05181ca0-ee11-4a66-8fce-2127fb792dc6",
+      "name": "SOL value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/29/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "SOL",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "e345d659-fa29-4604-a071-f9ed51dbc2c1",
+      "name": "CUT value",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/30/value",
+        "oscArgIndex": 0
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "feedbackColor": null
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "CUT",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0
+      }
+    },
+    {
+      "id": "27965699-1978-4cce-9c6a-be25cceeb194",
       "name": "LPF name",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/1/name",
+        "oscAddressPattern": "/channel/track/2/fxparam/1/name",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -452,7 +830,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -465,14 +843,138 @@
       }
     },
     {
-      "id": "0aea3b6c-8eb3-4ea4-a5e4-68cf78e88a67",
+      "id": "42ef0ce7-3a24-4729-a165-7f50f8f2886f",
+      "name": "1QF name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/2/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "1QF",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "073f99a5-70af-44db-81c4-170ec8205452",
+      "name": "2QF name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/3/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "2QF",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "cb6bebc7-a823-4f7a-8b3b-3cff34d05476",
+      "name": "3QF name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/4/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "3QF",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "3deed041-1720-4d6c-8e2c-71249f09b7ab",
+      "name": "4QF name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/5/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "4QF",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "aff1b09f-e6a2-471b-ad30-ca6d4d7be636",
       "name": "HPF name",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/2/name",
+        "oscAddressPattern": "/channel/track/2/fxparam/6/name",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -483,7 +985,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -496,45 +998,14 @@
       }
     },
     {
-      "id": "5788507b-a7d5-4139-a1d9-9c060936dfce",
-      "name": "1DB name",
-      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/3/name",
-        "oscArgIndex": 0,
-        "oscArgType": "string"
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
-        "feedbackColor": null,
-        "feedbackType": 1
-      },
-      "target": {
-        "trackExpression": "selected_track_indexes[0]",
-        "fxAnchor": "name",
-        "fxName": "Channel",
-        "paramType": "name",
-        "paramName": "1DB",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0,
-        "pollForFeedback": false
-      }
-    },
-    {
-      "id": "d8f17454-842e-4ec8-be4b-58fc8b84bb5c",
+      "id": "788954fc-6e11-4d05-b5b8-2107490a389e",
       "name": "1FQ name",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/4/name",
+        "oscAddressPattern": "/channel/track/2/fxparam/7/name",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -545,7 +1016,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -558,45 +1029,14 @@
       }
     },
     {
-      "id": "ac99ded3-9e8d-4056-a414-e9e8e14551e1",
-      "name": "2DB name",
-      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/5/name",
-        "oscArgIndex": 0,
-        "oscArgType": "string"
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
-        "feedbackColor": null,
-        "feedbackType": 1
-      },
-      "target": {
-        "trackExpression": "selected_track_indexes[0]",
-        "fxAnchor": "name",
-        "fxName": "Channel",
-        "paramType": "name",
-        "paramName": "2DB",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0,
-        "pollForFeedback": false
-      }
-    },
-    {
-      "id": "ed09671d-e0b4-4af2-bdf7-7e11246846ee",
+      "id": "a2fc585b-0f57-4800-a5d1-2863ce204104",
       "name": "2FQ name",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/6/name",
+        "oscAddressPattern": "/channel/track/2/fxparam/8/name",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -607,7 +1047,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -620,45 +1060,14 @@
       }
     },
     {
-      "id": "4fb25627-8357-4315-bb92-e420cd3df4d7",
-      "name": "3DB name",
-      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/7/name",
-        "oscArgIndex": 0,
-        "oscArgType": "string"
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
-        "feedbackColor": null,
-        "feedbackType": 1
-      },
-      "target": {
-        "trackExpression": "selected_track_indexes[0]",
-        "fxAnchor": "name",
-        "fxName": "Channel",
-        "paramType": "name",
-        "paramName": "3DB",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0,
-        "pollForFeedback": false
-      }
-    },
-    {
-      "id": "836b63e3-2cb4-4846-b3f0-b0dde3fe8b22",
+      "id": "56e3d3f3-1c6f-42ef-ad8c-b6661deacff7",
       "name": "3FQ name",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/8/name",
+        "oscAddressPattern": "/channel/track/2/fxparam/9/name",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -669,7 +1078,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -682,45 +1091,14 @@
       }
     },
     {
-      "id": "4bae2187-9b71-445a-b2c5-bf7e54c74b97",
-      "name": "4DB name",
-      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/9/name",
-        "oscArgIndex": 0,
-        "oscArgType": "string"
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
-        "feedbackColor": null,
-        "feedbackType": 1
-      },
-      "target": {
-        "trackExpression": "selected_track_indexes[0]",
-        "fxAnchor": "name",
-        "fxName": "Channel",
-        "paramType": "name",
-        "paramName": "4DB",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0,
-        "pollForFeedback": false
-      }
-    },
-    {
-      "id": "31888173-1d6d-4025-8134-07e4547109ac",
+      "id": "5adf50bf-8971-4690-a29a-92c1af61e3d1",
       "name": "4FQ name",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/10/name",
+        "oscAddressPattern": "/channel/track/2/fxparam/10/name",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -731,7 +1109,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -744,14 +1122,14 @@
       }
     },
     {
-      "id": "681561c4-dc13-4824-881f-d318aba9b471",
-      "name": "CTR name",
+      "id": "a64605e7-5e93-4da0-b936-7bf11d478f5f",
+      "name": "INP name",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/11/name",
+        "oscAddressPattern": "/channel/track/2/fxparam/11/name",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -762,7 +1140,162 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "INP",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "2d8e3a71-dbfc-4b21-b167-89c92124135b",
+      "name": "1DB name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/12/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "1DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "634f6d8c-6633-42e3-8143-f803b7ac80f5",
+      "name": "2DB name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/13/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "2DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "856df32d-87ee-4626-8cde-3c5cbb7ed9f8",
+      "name": "3DB name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/14/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "3DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "f004998e-83aa-40a4-b4c6-6118b03a5cd3",
+      "name": "4DB name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/15/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "4DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "73eedb4b-c8e2-448b-87b8-b4c91c1a4654",
+      "name": "CTR name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/16/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -775,14 +1308,14 @@
       }
     },
     {
-      "id": "25dd828a-c6c5-4f0c-a1b3-1770c18ac839",
+      "id": "23ae13a0-e307-48fa-a0b0-7194857d784c",
       "name": "CRA name",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/12/name",
+        "oscAddressPattern": "/channel/track/2/fxparam/17/name",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -793,7 +1326,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -806,14 +1339,14 @@
       }
     },
     {
-      "id": "59f66020-1c3c-4c39-8425-f7c31d7f5f33",
+      "id": "8390b807-86c0-48ae-b4af-ada215d31f3a",
       "name": "CAT name",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/13/name",
+        "oscAddressPattern": "/channel/track/2/fxparam/18/name",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -824,7 +1357,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -837,14 +1370,14 @@
       }
     },
     {
-      "id": "01167877-255c-4a05-ad39-c008f2dee12a",
+      "id": "87832d61-c566-47cc-b24c-9dd62a647dbe",
       "name": "CRE name",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/14/name",
+        "oscAddressPattern": "/channel/track/2/fxparam/19/name",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -855,7 +1388,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -868,14 +1401,14 @@
       }
     },
     {
-      "id": "a14a904f-11c1-4906-9ce7-f07f1f298e18",
+      "id": "549d6eee-6a46-4849-ae6b-e0db8669c004",
       "name": "CMO name",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/15/name",
+        "oscAddressPattern": "/channel/track/2/fxparam/20/name",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -886,7 +1419,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -899,14 +1432,14 @@
       }
     },
     {
-      "id": "a9014194-4776-49db-944d-28f042194995",
-      "name": "CMA name",
+      "id": "62559671-36e0-45aa-a967-ce3f72804e63",
+      "name": "OUT name",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/16/name",
+        "oscAddressPattern": "/channel/track/2/fxparam/21/name",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -917,11 +1450,11 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
-        "paramName": "CMA",
+        "paramName": "OUT",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,
@@ -930,14 +1463,293 @@
       }
     },
     {
-      "id": "10c653f4-9969-491e-bb27-f187e9be3fc7",
+      "id": "e37ab117-6f35-4c23-b64c-d464fbd37559",
+      "name": "GTR name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/22/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GTR",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "e26b0650-3799-48bc-b17c-d9133523c285",
+      "name": "GRA name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/23/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GRA",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "da94cb2b-2c73-4969-a8d4-e2c1e1146d57",
+      "name": "GAT name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/24/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GAT",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "bcd41d17-0888-4192-abbe-893a8213be2c",
+      "name": "GRE name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/25/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GRE",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "feb310b4-2db2-4ced-b1d0-6464bf7fe850",
+      "name": "GHO name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/26/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GHO",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "edf4130c-c021-4246-a262-4d032a39d8ab",
+      "name": "GEX name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/27/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GEX",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "fad2d3c7-6f90-4863-8d56-5798711d7c1f",
+      "name": "POL name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/28/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "POL",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "8773b380-0736-448e-ab3d-dae66d076af5",
+      "name": "SOL name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/29/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "SOL",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "966a4c31-f893-4912-9f4a-ee8c8eeccc3f",
+      "name": "CUT name",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/30/name",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "CUT",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "43fd2a32-e40e-43e8-b275-15ab0164babe",
       "name": "LPF str",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/1/str",
+        "oscAddressPattern": "/channel/track/2/fxparam/1/str",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -948,7 +1760,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -961,14 +1773,14 @@
       }
     },
     {
-      "id": "1f4600da-63a0-4d9a-bcbc-8ce187d75fb5",
-      "name": "HPF str",
+      "id": "555e0a06-a0d0-4c7a-b6b3-8d526e86f4f2",
+      "name": "1QF str",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/2/str",
+        "oscAddressPattern": "/channel/track/2/fxparam/2/str",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -979,7 +1791,131 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "1QF",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "6c94a89c-fd73-419b-8480-f2a37fc52867",
+      "name": "2QF str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/3/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "2QF",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "f162fdb8-7b51-41aa-9928-40151cba6732",
+      "name": "3QF str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/4/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "3QF",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "799d19da-f3d3-40f2-ac7b-f4fcaa8ffe4f",
+      "name": "4QF str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/5/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "4QF",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "487c9e97-312b-42f7-bf85-21fabc6e04c8",
+      "name": "HPF str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/6/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -992,45 +1928,14 @@
       }
     },
     {
-      "id": "b7997796-782e-407e-b6a7-8936a325e500",
-      "name": "1DB str",
-      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/3/str",
-        "oscArgIndex": 0,
-        "oscArgType": "string"
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "eelFeedbackTransformation": "{{target.text_value}}",
-        "feedbackColor": null,
-        "feedbackType": 1
-      },
-      "target": {
-        "trackExpression": "selected_track_indexes[0]",
-        "fxAnchor": "name",
-        "fxName": "Channel",
-        "paramType": "name",
-        "paramName": "1DB",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0,
-        "pollForFeedback": false
-      }
-    },
-    {
-      "id": "2048c21b-d54b-48b7-92f7-b72cb40cd1eb",
+      "id": "268efb14-0be5-4ffb-97e8-6e6cfdd161b9",
       "name": "1FQ str",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/4/str",
+        "oscAddressPattern": "/channel/track/2/fxparam/7/str",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -1041,7 +1946,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -1054,45 +1959,14 @@
       }
     },
     {
-      "id": "8cda854a-4985-4d8c-babc-3c0567b417be",
-      "name": "2DB str",
-      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/5/str",
-        "oscArgIndex": 0,
-        "oscArgType": "string"
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "eelFeedbackTransformation": "{{target.text_value}}",
-        "feedbackColor": null,
-        "feedbackType": 1
-      },
-      "target": {
-        "trackExpression": "selected_track_indexes[0]",
-        "fxAnchor": "name",
-        "fxName": "Channel",
-        "paramType": "name",
-        "paramName": "2DB",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0,
-        "pollForFeedback": false
-      }
-    },
-    {
-      "id": "05c32367-f0a5-4360-a114-6a27d47e88d7",
+      "id": "7305da54-4e6e-46fe-8a12-9130eb01c8bf",
       "name": "2FQ str",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/6/str",
+        "oscAddressPattern": "/channel/track/2/fxparam/8/str",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -1103,7 +1977,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -1116,45 +1990,14 @@
       }
     },
     {
-      "id": "636a34b3-5a20-412f-9d09-07e4d419483c",
-      "name": "3DB str",
-      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/7/str",
-        "oscArgIndex": 0,
-        "oscArgType": "string"
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "eelFeedbackTransformation": "{{target.text_value}}",
-        "feedbackColor": null,
-        "feedbackType": 1
-      },
-      "target": {
-        "trackExpression": "selected_track_indexes[0]",
-        "fxAnchor": "name",
-        "fxName": "Channel",
-        "paramType": "name",
-        "paramName": "3DB",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0,
-        "pollForFeedback": false
-      }
-    },
-    {
-      "id": "78ca45e3-47d3-472b-9dcf-ca450eb0f530",
+      "id": "88e4549b-edd0-4ac9-96cb-89eb344652d2",
       "name": "3FQ str",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/8/str",
+        "oscAddressPattern": "/channel/track/2/fxparam/9/str",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -1165,7 +2008,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -1178,45 +2021,14 @@
       }
     },
     {
-      "id": "58a322d5-a87a-4fe8-9a88-192ea754c1c2",
-      "name": "4DB str",
-      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
-      "source": {
-        "category": "osc",
-        "isRegistered": false,
-        "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/9/str",
-        "oscArgIndex": 0,
-        "oscArgType": "string"
-      },
-      "mode": {
-        "maxStepSize": 0.05,
-        "eelFeedbackTransformation": "{{target.text_value}}",
-        "feedbackColor": null,
-        "feedbackType": 1
-      },
-      "target": {
-        "trackExpression": "selected_track_indexes[0]",
-        "fxAnchor": "name",
-        "fxName": "Channel",
-        "paramType": "name",
-        "paramName": "4DB",
-        "useProject": true,
-        "moveView": true,
-        "seekPlay": true,
-        "oscArgIndex": 0,
-        "pollForFeedback": false
-      }
-    },
-    {
-      "id": "f798774d-dd9b-442a-b638-a7fb0e74d0cd",
+      "id": "d959aaf5-e1f1-4e31-913d-e39a3d2ac1dd",
       "name": "4FQ str",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/10/str",
+        "oscAddressPattern": "/channel/track/2/fxparam/10/str",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -1227,7 +2039,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -1240,14 +2052,14 @@
       }
     },
     {
-      "id": "e496e88c-cc58-4aa2-a507-95bb029517ea",
-      "name": "CTR str",
+      "id": "6b6c5f25-db6f-441d-85c6-c32ec32272d9",
+      "name": "INP str",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/11/str",
+        "oscAddressPattern": "/channel/track/2/fxparam/11/str",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -1258,7 +2070,162 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "INP",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "f2829311-3340-4894-8cc3-3028ecf152ab",
+      "name": "1DB str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/12/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "1DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "b7de47b1-7368-4fa5-82ab-5247aa923cc1",
+      "name": "2DB str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/13/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "2DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "3face1e4-8fd3-489a-b644-ec7d0e800174",
+      "name": "3DB str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/14/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "3DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "b27b62a5-10b2-4e5b-91ab-be0fd94815d5",
+      "name": "4DB str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/15/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "4DB",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "25c2b01e-6dfc-47c9-ba13-700317fb29b6",
+      "name": "CTR str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/16/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -1271,14 +2238,14 @@
       }
     },
     {
-      "id": "0a7d1764-e679-4e17-9740-4b6744c61215",
+      "id": "392591d1-0c1a-401b-bee3-e9270782565d",
       "name": "CRA str",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/12/str",
+        "oscAddressPattern": "/channel/track/2/fxparam/17/str",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -1289,7 +2256,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -1302,14 +2269,14 @@
       }
     },
     {
-      "id": "2521ee85-efcd-45a4-8895-f78a4d046c4d",
+      "id": "e8171e2a-4131-4d6d-b5de-8bed50d36da5",
       "name": "CAT str",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/13/str",
+        "oscAddressPattern": "/channel/track/2/fxparam/18/str",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -1320,7 +2287,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -1333,14 +2300,14 @@
       }
     },
     {
-      "id": "25179310-a930-4fa8-b5ab-3cf72225321a",
+      "id": "1f5e619d-ca29-42ac-a24e-2fab604b92e6",
       "name": "CRE str",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/14/str",
+        "oscAddressPattern": "/channel/track/2/fxparam/19/str",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -1351,7 +2318,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -1364,14 +2331,14 @@
       }
     },
     {
-      "id": "809fe9e3-5cc6-46af-8e78-8a7adf6d1a62",
+      "id": "7174f34f-858c-44a3-88ab-773fec5c7934",
       "name": "CMO str",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/15/str",
+        "oscAddressPattern": "/channel/track/2/fxparam/20/str",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -1382,7 +2349,7 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
@@ -1395,14 +2362,14 @@
       }
     },
     {
-      "id": "bac76f9e-c6a1-4c2e-9234-50847833c634",
-      "name": "CMA str",
+      "id": "412146a4-d45f-4d71-9cef-b1872910439d",
+      "name": "OUT str",
       "groupId": "BxdtiVP5sEuRAC2_hgMHD",
       "source": {
         "category": "osc",
         "isRegistered": false,
         "is14Bit": false,
-        "oscAddressPattern": "/channel/track/1/fxparam/16/str",
+        "oscAddressPattern": "/channel/track/2/fxparam/21/str",
         "oscArgIndex": 0,
         "oscArgType": "string"
       },
@@ -1413,11 +2380,290 @@
         "feedbackType": 1
       },
       "target": {
-        "trackExpression": "selected_track_indexes[0]",
+        "trackExpression": "selected_track_indexes[1]",
         "fxAnchor": "name",
         "fxName": "Channel",
         "paramType": "name",
-        "paramName": "CMA",
+        "paramName": "OUT",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "8bd96be6-7c9e-4a3b-b8e5-e3b7c5677927",
+      "name": "GTR str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/22/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GTR",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "c639f840-794b-4e24-be5e-4bb33fa67647",
+      "name": "GRA str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/23/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GRA",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "856a1261-ee90-4b4a-b4cd-cc50ae14e468",
+      "name": "GAT str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/24/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GAT",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "b7d1177c-6f47-4e18-b1d7-a459e678361b",
+      "name": "GRE str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/25/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GRE",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "2b6cb256-e3ff-48ca-aed4-dc4c88f8f872",
+      "name": "GHO str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/26/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GHO",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "fea6bc12-b454-4014-b0c3-46c62e9045ec",
+      "name": "GEX str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/27/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "GEX",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "8cd183db-b832-44af-9bea-0030b03c795a",
+      "name": "POL str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/28/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "POL",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "1efe3bf0-af0a-4105-9812-4558e81402fb",
+      "name": "SOL str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/29/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "SOL",
+        "useProject": true,
+        "moveView": true,
+        "seekPlay": true,
+        "oscArgIndex": 0,
+        "pollForFeedback": false
+      }
+    },
+    {
+      "id": "0f1d169e-b8ac-4956-8043-5596388dd56d",
+      "name": "CUT str",
+      "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+      "source": {
+        "category": "osc",
+        "isRegistered": false,
+        "is14Bit": false,
+        "oscAddressPattern": "/channel/track/2/fxparam/30/str",
+        "oscArgIndex": 0,
+        "oscArgType": "string"
+      },
+      "mode": {
+        "maxStepSize": 0.05,
+        "eelFeedbackTransformation": "{{target.text_value}}",
+        "feedbackColor": null,
+        "feedbackType": 1
+      },
+      "target": {
+        "trackExpression": "selected_track_indexes[1]",
+        "fxAnchor": "name",
+        "fxName": "Channel",
+        "paramType": "name",
+        "paramName": "CUT",
         "useProject": true,
         "moveView": true,
         "seekPlay": true,

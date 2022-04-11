@@ -11,12 +11,11 @@ filePath = directory / "mapping.json"
 
 jsonData = {"kind": "Mappings", "value":[]}
 
-aliases = ["LPF", "HPF", "1DB", "1FQ", "2DB", "2FQ", "3DB", "3FQ", "4DB", "4FQ", "CTR", "CRA", "CAT", "CRE", "CMO", "CMA"]
-aliases = aliases + []
+#aliases = ["LPF", "HPF", "1DB", "1FQ", "2DB", "2FQ", "3DB", "3FQ", "4DB", "4FQ", "CTR", "CRA", "CAT", "CRE", "CMO", "CMA"]
+aliases = ["LPF", "1QF", "2QF", "3QF", "4QF", "HPF", "1FQ", "2FQ", "3FQ", "4FQ", "INP", "1DB", "2DB", "3DB", "4DB"]
+aliases = aliases + ["CTR", "CRA", "CAT", "CRE", "CMO", "OUT", "GTR", "GRA", "GAT", "GRE", "GHO", "GEX", "POL", "SOL", "CUT"]
 
-def generateMappings(jsonData, filePath, control, trackNum):
-    expression = "selected_track_indexes[0]"
-    #"selected_track_index + (p[9] * 1000)"
+def generateMappings(jsonData, filePath, control, trackNum, expression):
     for i in range(len(aliases)):
 
         with open(filePath, "r") as file:
@@ -35,10 +34,11 @@ def generateMappings(jsonData, filePath, control, trackNum):
     return jsonData
 
 
-trackNum = "1"
-jsonData = generateMappings(jsonData, directory / "value.json", "value", trackNum)
-jsonData = generateMappings(jsonData, directory / "name.json", "name", trackNum)
-jsonData = generateMappings(jsonData, directory / "str.json", "str", trackNum)
+trackNum = "2"
+expression = "selected_track_indexes[1]"  #"selected_track_index + (p[9] * 1000)"  
+jsonData = generateMappings(jsonData, directory / "value.json", "value", trackNum, expression)
+jsonData = generateMappings(jsonData, directory / "name.json", "name", trackNum, expression)
+jsonData = generateMappings(jsonData, directory / "str.json", "str", trackNum, expression)
 
 with open (directory / "output.json", "w") as file:
     file.write(json.dumps(jsonData, indent=2))
