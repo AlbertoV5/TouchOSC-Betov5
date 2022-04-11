@@ -1,0 +1,34 @@
+{
+  "kind": "Mapping",
+  "value": {
+    "id": "3Ta3MALJD322sJqkulzdI",
+    "name": "name",
+    "groupId": "BxdtiVP5sEuRAC2_hgMHD",
+    "source": {
+      "category": "osc",
+      "isRegistered": false,
+      "is14Bit": false,
+      "oscAddressPattern": "/channel/track/1/fxparam/1/name",
+      "oscArgIndex": 0,
+      "oscArgType": "string"
+    },
+    "mode": {
+      "maxStepSize": 0.05,
+      "eelFeedbackTransformation": "{{target.fx_parameter.name}}",
+      "feedbackColor": null,
+      "feedbackType": 1
+    },
+    "target": {
+      "trackExpression": "selected_track_index + (p[9] * 1000)",
+      "fxAnchor": "name",
+      "fxName": "Channel",
+      "paramType": "name",
+      "paramName": "LP",
+      "useProject": true,
+      "moveView": true,
+      "seekPlay": true,
+      "oscArgIndex": 0,
+      "pollForFeedback": false
+    }
+  }
+}
