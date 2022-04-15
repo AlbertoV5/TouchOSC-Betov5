@@ -1,45 +1,80 @@
-# 1. Create a mapping in Realearn
-# 2. Right click, copy and paste in mapping.json
-# 3. Tweak this script, run it. Paste output.json contents in Realearn
 from pathlib import Path
 from uuid import uuid4
 import json
 
-directory = Path.cwd()
-directory = directory / "scripts/realearn-python"
-filePath = directory / "mapping.json"
 
-jsonData = {"kind": "Mappings", "value":[]}
+class Mappings:
+    """Make sure to change the mapping attributes and the internal method's json keys to fit your needs!
 
-#aliases = ["LPF", "HPF", "1DB", "1FQ", "2DB", "2FQ", "3DB", "3FQ", "4DB", "4FQ", "CTR", "CRA", "CAT", "CRE", "CMO", "CMA"]
-aliases = ["LPF", "1QF", "2QF", "3QF", "4QF", "HPF", "1FQ", "2FQ", "3FQ", "4FQ", "INP", "1DB", "2DB", "3DB", "4DB"]
-aliases = aliases + ["CTR", "CRA", "CAT", "CRE", "CMO", "OUT", "GTR", "GRA", "GAT", "GRE", "GHO", "GEX", "POL", "SOL", "CUT"]
+    Attributes
+    ----------
+    directory : Defaults to current working directory
+    trackExpression : This is the dynamic track target to work with, leave {0} where the track index would be
+    numberOfTracks : This is the number of times the same expression will repeat for different track indexes
+    referenceJsonFiles : This is the original mapping reference you created in Realearn first
+    targetFxName : Creating mappings for one plugin at a time
+    paramNames : These are all the parameters you want to map, which repeat across tracks and references
+    oscControl : {0} is track number, {1} is fxName, {2} is reference mapping / jsonFile
 
-def generateMappings(jsonData, filePath, control, trackNum, expression):
-    for i in range(len(aliases)):
+    Methods
+    ----------
+    modifyJson : change this method's json keys to fit your needs!
+    """
 
-        with open(filePath, "r") as file:
-            jsm = json.loads(file.read())["value"]
+    directory = Path.cwd()
+    trackExpression = "selected_track_indexes[{0}]"
+    numberOfTracks = 2
+    
+    referenceJsonFiles = ["value", "name", "str"]
+    targetFxName = "Channel"
+    paramNames = [
+    "LPF", "1QF", "2QF", "3QF", "4QF", 
+    "HPF", "1FQ", "2FQ", "3FQ", "4FQ", 
+    "INP", "1DB", "2DB", "3DB", "4DB",
+    "CTR", "CRA", "CAT", "CRE", "CMO", 
+    "GTR", "GRN", "GAT", "GRE", "GMO", 
+    "OUT", "MIX", "PRE", "DRI", "BYP"]
+    oscControl = "/channel/track/{0}/fxparam/{1}/{2}"
 
-        jsm["id"] = str(uuid4())
-        jsm["name"] = aliases[i] + " " + control
-        jsm["source"]["oscAddressPattern"] = "/channel/track/" + str(trackNum) + "/fxparam/" + str(i+1) + "/" + control
 
-        jsm["target"]["trackExpression"] = expression
-        jsm["target"]["fxName"] = "Channel"
-        jsm["target"]["paramName"] = aliases[i]
+    def modifyJson(self, jsonOutput, filePath, ref, trackNum, expression):
+        control = ref
+        for i in range(len(self.paramNames)):
 
-        jsonData["value"].append(jsm)
+            with open(filePath, "r") as file:
+                jsm = json.loads(file.read())["value"]
 
-    return jsonData
+            jsm["id"] = str(uuid4())
+            jsm["name"] = self.paramNames[i] + " {0}".format(control)
+            jsm["source"]["oscAddressPattern"] = self.oscControl.format(str(trackNum), str(i+1), control)
+
+            jsm["target"]["trackExpression"] = expression
+            jsm["target"]["fxName"] = self.targetFxName
+            jsm["target"]["paramName"] = self.paramNames[i]
+
+            jsonOutput["value"].append(jsm)
+
+        return jsonOutput
 
 
-trackNum = "2"
-expression = "selected_track_indexes[1]"  #"selected_track_index + (p[9] * 1000)"  
-jsonData = generateMappings(jsonData, directory / "value.json", "value", trackNum, expression)
-jsonData = generateMappings(jsonData, directory / "name.json", "name", trackNum, expression)
-jsonData = generateMappings(jsonData, directory / "str.json", "str", trackNum, expression)
+    def generate(self):
+        """ construct a json output that contains ALL the mappings
+        """
+        jsonOutput = {"kind": "Mappings", "value":[]}   
+        
+        for i in range(self.numberOfTracks):
 
-with open (directory / "output.json", "w") as file:
-    file.write(json.dumps(jsonData, indent=2))
+            for ref in self.referenceJsonFiles:
+                path = self.directory / (ref+".json")
+                jsonOutput = self.modifyJson(jsonOutput, path, ref, str(i+1), self.trackExpression.format(str(i)))
 
+            with open (self.directory / "output.json", "w") as file:
+                file.write(json.dumps(jsonOutput, indent=2))
+
+
+
+mappings = Mappings()
+
+mappings.directory = Path.cwd() / "scripts" / "realearn-python"
+
+mappings.generate()
