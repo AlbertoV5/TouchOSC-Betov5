@@ -16,11 +16,11 @@
       "feedbackColor": null
     },
     "target": {
-      "trackExpression": "selected_track_index + (p[9] * 1000)",
+      "trackExpression": "selected_track_indexes[0]",
       "fxAnchor": "name",
       "fxName": "Channel",
       "paramType": "name",
-      "paramName": "LP",
+      "paramName": "LPF",
       "useProject": true,
       "moveView": true,
       "seekPlay": true,

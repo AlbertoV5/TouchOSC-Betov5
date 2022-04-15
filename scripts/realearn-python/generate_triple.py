@@ -78,3 +78,4 @@ mappings = Mappings()
 mappings.directory = Path.cwd() / "scripts" / "realearn-python"
 
 mappings.generate()
+
