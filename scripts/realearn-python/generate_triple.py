@@ -68,8 +68,8 @@ class Mappings:
                 path = self.directory / (ref+".json")
                 jsonOutput = self.modifyJson(jsonOutput, path, ref, str(i+1), self.trackExpression.format(str(i)))
 
-            with open (self.directory / "output.json", "w") as file:
-                file.write(json.dumps(jsonOutput, indent=2))
+        with open (self.directory / "output.json", "w") as file:
+            file.write(json.dumps(jsonOutput, indent=2))
 
 
 
