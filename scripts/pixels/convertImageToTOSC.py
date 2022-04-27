@@ -55,14 +55,11 @@ def generateImage(scale):
 tree = ET.parse(d / 'input.xml')
 root = tree.getroot()
 
-# for i in root.findall("node")[0]:
-#     print(i.attrib)
-
+# Targeted group! modify in box function
 print(root.findall("node")[0].find("children").find("node").find("children"))
-print(root[0][2])
 
-data = pixImage(size = 64, path = d / 'logo.jpg')
-generateImage(scale = 4)
+data = pixImage(size = 128, path = d / 'soma.jpg')
+generateImage(scale = 8)
 
 tree.write(d / "output.xml")
 tree.write(d / "output.tosc")
