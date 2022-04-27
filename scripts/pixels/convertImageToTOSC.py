@@ -6,8 +6,8 @@ from pathlib import Path
 
 d = Path.cwd() / "scripts" / "pixels"
 
-def pixImage(size):
-    image = Image.open(d / 'logo.jpg')
+def pixImage(size, path):
+    image = Image.open(path)
     m = min(image.size) / size
     xr = int(image.size[0] / m)
     yr = int(image.size[1] / m)
@@ -36,7 +36,8 @@ def addBox(colorTargets, frameTargets, name):
             if prop.find("key").text == "name":
                 prop.find("value").text = name
 
-    root[0][2].append(new_box)
+    root.findall("node")[0].find("children").find("node").find("children").append(new_box)
+    #root[0][2].append(new_box)
 
 def generateImage(scale):
     for x in range(int(data[0].size/3)):
@@ -51,11 +52,17 @@ def generateImage(scale):
         #print(x)
     print("Done")
 
-tree = ET.parse(d / 'test.xml')
+tree = ET.parse(d / 'input.xml')
 root = tree.getroot()
 
-data = pixImage(size = 32)
-generateImage(scale = 1)
+# for i in root.findall("node")[0]:
+#     print(i.attrib)
+
+print(root.findall("node")[0].find("children").find("node").find("children"))
+print(root[0][2])
+
+data = pixImage(size = 64, path = d / 'logo.jpg')
+generateImage(scale = 4)
 
 tree.write(d / "output.xml")
 tree.write(d / "output.tosc")
