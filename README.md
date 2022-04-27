@@ -3,6 +3,8 @@ TouchOSC design for Reaper and Realearn. Music Production, Mixing and Mastering.
 
 ![Mixer](https://user-images.githubusercontent.com/58243333/148149878-2e591f21-352e-40a1-a4c0-c991e2f5b199.jpg)
 
+Last version here: https://github.com/AlbertoV5/stoicOSC while I figure out final direction of the template.
+
 Quick temp demo no sound: https://youtu.be/saJDEtn-Abg (hopefully will update in the near future)
 
 ## Description
