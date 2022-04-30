@@ -36,7 +36,7 @@
 </property>
 <property type='b'>
 <key><![CDATA[locked]]></key>
-<value>1</value>
+<value>0</value>
 </property>
 <property type='s'>
 <key><![CDATA[name]]></key>

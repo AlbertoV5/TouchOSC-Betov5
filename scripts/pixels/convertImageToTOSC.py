@@ -4,62 +4,68 @@ import xml.etree.ElementTree as ET
 from uuid import uuid4
 from pathlib import Path
 
-d = Path.cwd() / "scripts" / "pixels"
+class ToscGraph():
+    def __init__(self, directory):
+        self.cwd = Path.cwd() / directory
 
-def pixImage(size, path):
-    image = Image.open(path)
-    m = min(image.size) / size
-    xr = int(image.size[0] / m)
-    yr = int(image.size[1] / m)
+    def loadFiles(self, input_path, output_path, image_path, seed_path):
+        self.input_path = self.cwd / input_path
+        self.output_path = self.cwd / output_path
+        self.image_path = self.cwd / image_path
+        self.seed_path = self.cwd / seed_path
 
-    pixelated = image.resize((xr, yr), resample=Image.BILINEAR)
-    data = np.asarray(pixelated)
+    def plantTrees(self):
+        self.tree = ET.parse(f"{self.input_path}.xml")
+        self.root = self.tree.getroot()
+        self.seed = ET.parse(f"{self.seed_path}.xml")
+        self.target = self.root.findall("node")[0].find("children").find("node").find("children")
 
-    print("size", pixelated.size)
-    print("size", data.size)
-    return data
+    def pixelateImage(self, size, scale):
+        img = Image.open(f"{self.image_path}.jpg")
+        ratio = min(img.size) / size
+        xyr = int(img.size[0] / ratio), int(img.size[1] /ratio)
+        self.pixels = np.asarray(img.resize(xyr, resample=Image.Resampling.BILINEAR))/255
+        self.scale = scale
 
-def addBox(colorTargets, frameTargets, name):
-    with open(d / "box.xml", "r") as file:
-        new_box = ET.fromstring(file.read())
+    def plantSeeds(self, colorTargets, frameTargets, name):
+        with open(f"{self.seed_path}.xml", "r") as file:
+            seed = ET.fromstring(file.read())
+        seed.attrib["ID"] = str((uuid4()))
+        for values in seed:
+            for val in values:
+                if val.find("key").text == "color":
+                    for color in colorTargets:
+                        val.find("value").find(color).text = str(colorTargets[color])
+                if val.find("key").text == "frame":
+                    for frame in frameTargets:
+                        val.find("value").find(frame).text = str(frameTargets[frame])
+                if val.find("key").text == "name":
+                    val.find("value").text = name
+    
+        self.target.append(seed)
 
-    new_box.attrib["ID"] = str(uuid4())
+    def generate(self):
+        for x in range(int(self.pixels[0].size/3)):
+            for y in range(int(self.pixels.size/(self.pixels[0].size))):
+                colorTargets = {"r":self.pixels[y][x][0], "g":self.pixels[y][x][1], "b":self.pixels[y][x][2]}
+                frameTargets = {"x":x*self.scale, "y":y*self.scale, "w":self.scale, "h":self.scale}   
+                self.plantSeeds(colorTargets, frameTargets, "p"+str(x)+str(y))
 
-    for props_vals in new_box:
-        for prop in props_vals:
-            if prop.find("key").text == "color":
-                for color in colorTargets:
-                    prop.find("value").find(color).text = str(colorTargets[color])
-            if prop.find("key").text == "frame":
-                for frame in frameTargets:
-                    prop.find("value").find(frame).text = str(frameTargets[frame])
-            if prop.find("key").text == "name":
-                prop.find("value").text = name
+    def save(self):
+        self.tree.write(f"{self.output_path}.xml")
+        self.tree.write(f"{self.output_path}.tosc")
 
-    root.findall("node")[0].find("children").find("node").find("children").append(new_box)
-    #root[0][2].append(new_box)
 
-def generateImage(scale):
-    for x in range(int(data[0].size/3)):
-        for y in range(int(data.size/(data[0].size))):
-            colorTargets = {
-                "r":data[y][x][0]/255, 
-                "g":data[y][x][1]/255,
-                "b":data[y][x][2]/255}
-        
-            frameTargets = {"x":x*scale, "y":y*scale, "w":scale, "h":scale}   
-            addBox(colorTargets, frameTargets, "p"+str(x)+str(y))
-        #print(x)
-    print("Done")
+### Main Process
 
-tree = ET.parse(d / 'input.xml')
-root = tree.getroot()
+toscg = ToscGraph(directory = Path("scripts") / "pixels")
+toscg.loadFiles("input", "output", "soma", "seed")
 
-# Targeted group! modify in box function
-print(root.findall("node")[0].find("children").find("node").find("children"))
+toscg.plantTrees()
+toscg.pixelateImage(size = 128, scale = 4)
 
-data = pixImage(size = 128, path = d / 'soma.jpg')
-generateImage(scale = 8)
+toscg.generate()
+toscg.save()
 
-tree.write(d / "output.xml")
-tree.write(d / "output.tosc")
+#subprocess.run(f"start {out}.tosc", shell=True, check=True)
+#os.system(f"start {out}.tosc")

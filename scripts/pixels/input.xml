@@ -103,8 +103,8 @@
 <value>
 <x>0</x>
 <y>0</y>
-<w>512</w>
-<h>512</h>
+<w>1920</w>
+<h>1200</h>
 </value>
 </property>
 <property type='b'>
@@ -121,7 +121,7 @@
 </property>
 <property type='s'>
 <key><![CDATA[name]]></key>
-<value><![CDATA[image1]]></value>
+<value><![CDATA[canvas]]></value>
 </property>
 <property type='i'>
 <key><![CDATA[orientation]]></key>
