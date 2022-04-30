@@ -1,12 +1,6 @@
 import toscEdit
-from tkinter import Tk, ttk
-
-root = Tk()
-frm = ttk.Frame(root, padding=10)
-frm.grid()
-ttk.Label(frm, text="Hello World!").grid(column=0, row=0)
-ttk.Button(frm, text="Quit", command=root.destroy).grid(column=1, row=0)
-root.mainloop()
+import gui
+import subprocess
 
 # TOSC
 
@@ -15,13 +9,14 @@ tosc = toscEdit.Design(directory = "scripts/pixels")
 tosc.loadFiles(
     input_path = "input", 
     output_path = "output", 
-    image_path = "soma", 
+    image_path = "bg", 
     pixel_path = "pixel")
 
-tosc.pixelateImage(size = 128, scale = 4)
 
-tosc.draw()
-tosc.save()
+tosc.image_size = 64
+tosc.pixel_size = 8
 
-#subprocess.run(f"start {out}.tosc", shell=True, check=True)
+gui.start(tosc)
+
+subprocess.run(f"start {tosc.output_path}.tosc", shell=True, check=True)
 #os.system(f"start {out}.tosc")

@@ -17,13 +17,17 @@ class Design():
         self.root = self.tree.getroot()
         self.seed = ET.parse(f"{self.pixel_path}.xml")
         self.target = self.root.findall("node")[0].find("children").find("node").find("children")
+        self.image_size = 64
+        self.pixel_size = 4
 
-    def pixelateImage(self, size, scale):
+    def pixelateImage(self):
         img = Image.open(f"{self.image_path}.jpg")
-        ratio = min(img.size) / size
+        ratio = min(img.size) / self.image_size
         xyr = int(img.size[0] / ratio), int(img.size[1] /ratio)
-        self.pixels = np.asarray(img.resize(xyr, resample=Image.Resampling.BILINEAR))/255
-        self.scale = scale
+        self.image_pixelated = img.resize(xyr, resample=Image.Resampling.BILINEAR)
+        self.pixels = np.asarray(self.image_pixelated)/255
+        xyr = xyr[0]*self.pixel_size, xyr[1]*self.pixel_size
+        self.image_pixelated = img.resize(xyr, resample=Image.Resampling.NEAREST)
 
     def drawBox(self, colorTargets, frameTargets, name):
         with open(f"{self.pixel_path}.xml", "r") as file:
@@ -46,7 +50,7 @@ class Design():
         for x in range(int(self.pixels[0].size/3)):
             for y in range(int(self.pixels.size/(self.pixels[0].size))):
                 colorTargets = {"r":self.pixels[y][x][0], "g":self.pixels[y][x][1], "b":self.pixels[y][x][2]}
-                frameTargets = {"x":x*self.scale, "y":y*self.scale, "w":self.scale, "h":self.scale}   
+                frameTargets = {"x":x*self.pixel_size, "y":y*self.pixel_size, "w":self.pixel_size, "h":self.pixel_size}   
                 self.drawBox(colorTargets, frameTargets, "p"+str(x)+str(y))
 
     def save(self):
